@@ -1,0 +1,84 @@
+{
+  "problemCategory": "classification_multi_base",
+  "version": "1.0",
+  "inputDatasets": {
+    "multiClassClassificationBaseMainInput": {
+      "idField": "ID",
+      "targetField": "CLASS",
+      "predictorFields": [
+        {
+          "fieldName": "COMPACTNESS",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "CIRCULARITY",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "DISTANCE CIRCULARITY",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "RADIUS RATIO",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "PR.AXIS ASPECT RATIO",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "MAX.LENGTH ASPECT RATIO",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SCATTER RATIO",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "ELONGATEDNESS",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "PR.AXIS RECTANGULARITY",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "MAX.LENGTH RECTANGULARITY",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SCALED VARIANCE ALONG MAJOR AXIS",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SCALED VARIANCE ALONG MINOR AXIS",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SCALED RADIUS OF GYRATION",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SKEWNESS ABOUT MAJOR AXIS",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SKEWNESS ABOUT MINOR AXIS",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "KURTOSIS ABOUT MAJOR AXIS",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "KURTOSIS ABOUT MINOR AXIS",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "HOLLOWS RATIO",
+          "dataType": "NUMERIC"
+        }
+      ]
+    }
+  }
+}

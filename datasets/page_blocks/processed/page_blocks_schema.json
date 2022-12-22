@@ -1,0 +1,52 @@
+{
+  "problemCategory": "classification_multi_base",
+  "version": "1.0",
+  "inputDatasets": {
+    "multiClassClassificationBaseMainInput": {
+      "idField": "id",
+      "targetField": "class",
+      "predictorFields": [
+        {
+          "fieldName": "height",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "length",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "area",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "eccen",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "p_black",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "p_and",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "mean_tr",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "blackpix",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "blackand",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "wb_trans",
+          "dataType": "NUMERIC"
+        }
+      ]
+    }
+  }
+}

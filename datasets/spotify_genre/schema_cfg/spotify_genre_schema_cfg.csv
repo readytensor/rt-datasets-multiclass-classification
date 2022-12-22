@@ -1,0 +1,16 @@
+field_num,field_name,data_type,field_use_type
+1,danceability,NUMERIC,INPUT
+2,energy,NUMERIC,INPUT
+3,key,CATEGORICAL,INPUT
+4,loudness,NUMERIC,INPUT
+5,mode,CATEGORICAL,INPUT
+6,speechiness,NUMERIC,INPUT
+7,acousticness,NUMERIC,INPUT
+8,instrumentalness,NUMERIC,INPUT
+9,liveness,NUMERIC,INPUT
+10,valence,NUMERIC,INPUT
+11,tempo,NUMERIC,INPUT
+12,id,TEXT,ID
+13,duration_ms,NUMERIC,INPUT
+14,time_signature,CATEGORICAL,INPUT
+15,genre,CATEGORICAL,TARGET

@@ -1,0 +1,42 @@
+{
+  "instances": [
+    {
+      "id": "446",
+      "date": "june",
+      "plant-stand": " normal",
+      "precip": " gt-norm",
+      "temp": " gt-norm",
+      "hail": " yes",
+      "crop-hist": " same-lst-yr",
+      "area-damaged": " whole-field",
+      "severity": " minor",
+      "seed-tmt": " fungicide",
+      "germination": " 80-89",
+      "plant-growth": " norm",
+      "leaves": " abnorm",
+      "leafspots-halo": " no-yellow-halos",
+      "leafspots-marg": " w-s-marg",
+      "leafspot-size": " gt-1/8",
+      "leaf-shred": " absent",
+      "leaf-malf": " absent",
+      "leaf-mild": " absent",
+      " stem": " norm",
+      "lodging": " yes",
+      "stem-cankers": " absent",
+      "canker-lesion": " dna",
+      "fruiting-bodies": " absent",
+      "external decay": " absent",
+      "mycelium": " absent",
+      "int-discolor": " none",
+      "sclerotia": " absent",
+      "fruit-pods": " norm",
+      "fruit-spots": " absent",
+      "seed": " norm",
+      "mold-growth": " absent",
+      "seed-discolor": " absent",
+      "seed-size": " norm",
+      "shriveling": " absent",
+      "roots": " norm"
+    }
+  ]
+}
