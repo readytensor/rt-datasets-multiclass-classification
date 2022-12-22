@@ -157,26 +157,6 @@ The database consists of the multi-spectral values of pixels in 3x3 neighbourhoo
 
 #### Attribution
 
----
-
-##
-
-#### Alias (in scorecards):
-
-#### Domain / Industry:
-
-#### Description
-
-#### Dataset characteristics
-
-- Number of samples =
-- Number of input features =
-- Number of target classes =
-- Has categorical features =
-- Has missing values =
-
-#### Attribution
-
 Source:
 
 Ashwin Srinivasan
@@ -234,82 +214,172 @@ https://www.openml.org/d/30
 
 ---
 
-##
+## Primary Tumor
 
-#### Alias (in scorecards):
+#### Alias (in scorecards): primary_tumor
 
-#### Domain / Industry:
+#### Domain / Industry: Healthcare
 
 #### Description
 
+This primary tumor domain was obtained from the University Medical Centre, Institute of Oncology, Ljubljana, Yugoslavia. Thanks go to M. Zwitter and M. Soklic for providing the data.
+
+This is one of three domains provided by the Oncology Institute that has repeatedly appeared in the machine learning literature. (See also breast-cancer and lymphography.)
+
 #### Dataset characteristics
 
-- Number of samples =
-- Number of input features =
-- Number of target classes =
-- Has categorical features =
-- Has missing values =
+- Number of samples = 339
+- Number of input features = 17
+- Number of target classes = 22
+- Has categorical features = Yes
+- Has missing values = Yes
 
 #### Attribution
+
+Source / Donors: Igor Kononenko, University E.Kardelj Faculty for electrical engineering Trzaska 25 61000 Ljubljana
+
+Dataset can be found here:
+
+https://www.openml.org/d/171
 
 ---
 
-##
+## Soybean Disease
 
-#### Alias (in scorecards):
+#### Alias (in scorecards): soybean_disease
 
-#### Domain / Industry:
+#### Domain / Industry: Plant Pathology
 
 #### Description
 
+This is the soybean disease diagnosis dataset. Samples contain 35 attributes from soybean that can be used to classify each sample into one of 19 disease types. The features are all categorical, some nominal and some ordered.
+
 #### Dataset characteristics
 
-- Number of samples =
-- Number of input features =
-- Number of target classes =
-- Has categorical features =
-- Has missing values =
+- Number of samples = 683
+- Number of input features = 35
+- Number of target classes = 19
+- Has categorical features = Yes
+- Has missing values = Yes
 
 #### Attribution
+
+Dataset from this study:
+
+R.S. Michalski and R.L. Chilausky "Learning by Being Told and Learning from Examples: An Experimental Comparison of the Two Methods of Knowledge Acquisition in the Context of Developing an Expert System for Soybean Disease Diagnosis", International Journal of Policy Analysis and Information Systems, Vol. 4, No. 2, 1980.
+
+Donor:
+Ming Tan & Jeff Schlimmer (Jeff.Schlimmer%cs.cmu.edu)
+
+Dataset can be found here:
+https://archive.ics.uci.edu/ml/datasets/Soybean+(Large)
+
+UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
 ---
 
-##
+## Spotify Song Genre
 
-#### Alias (in scorecards):
+#### Alias (in scorecards): spotify_genre
 
-#### Domain / Industry:
+#### Domain / Industry: Music / Audio Streaming
 
 #### Description
 
+This dataset consists of features of songs from various genres such as Trap, Techno, Techhouse, HipHop, Rap, Pop, Emo, etc. In this task, we use the song features such as danceability, energy, key, loudness, speechiness, tempo etc. to identify the song genre.
+
+The original dataset contained 42,305 songs from 15 genres. We filtered the dataset to contain songs from 7 genres, namely, Hiphop, Trap, Techno, RnB, Rap, Pop and Emo.
+
+Some songs were marked under multiple genres. In such cases, we retained only the first observed sample of the song to keep the problem under the multi-class classification category. So each song has a single genre in the final processed dataset.
+
 #### Dataset characteristics
 
-- Number of samples =
-- Number of input features =
-- Number of target classes =
-- Has categorical features =
-- Has missing values =
+- Number of samples = 13,566
+- Number of input features = 13
+- Number of target classes = 7
+- Has categorical features = Yes
+- Has missing values = No
 
 #### Attribution
+
+Dataset can be found here:
+https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify
 
 ---
 
-##
+## Steel Plate Fault
 
-#### Alias (in scorecards):
+#### Alias (in scorecards): steel_plate_fault
 
-#### Domain / Industry:
+#### Domain / Industry: Steelmaking / Steel
 
 #### Description
 
+A dataset of steel plates faults, classified into 7 different types. The goal is to train machine learning for automatic pattern recognition.
+
 #### Dataset characteristics
 
-- Number of samples =
-- Number of input features =
-- Number of target classes =
-- Has categorical features =
-- Has missing values =
+- Number of samples = 1,941
+- Number of input features = 27
+- Number of target classes = 7
+- Has categorical features = No
+- Has missing values = No
 
 #### Attribution
+
+Source:
+
+Semeion, Research Center of Sciences of Communication, Via Sersale 117, 00128, Rome, Italy.
+www.semeion.it
+
+Dataset can be found here:
+http://archive.ics.uci.edu/ml/datasets/steel+plates+faults
+
+UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+
+---
+
+## Vehicle Silhouettes
+
+#### Alias (in scorecards): vehicle_silhouettes
+
+#### Domain / Industry: Automotive
+
+#### Description
+
+The purpose is to classify a given silhouette as one of four types of vehicle, using a set of features extracted from the silhouette. The vehicle may be viewed from one of many different angles.
+
+Four "Corgie" model vehicles were used for the experiment: a double decker bus, Cheverolet van, Saab 9000 and an Opel Manta 400. This particular combination of vehicles was chosen with the expectation that the bus, van and either one of the cars would be readily distinguishable, but it would be more difficult to distinguish between the cars.
+
+The features were extracted from the silhouettes by the HIPS (Hierarchical Image Processing System) extension BINATTS, which extracts a combination of scale independent features utilising both classical moments based measures such as scaled variance, skewness and kurtosis about the major/minor axes and heuristic measures such as hollows, circularity, rectangularity and compactness.
+
+The original purpose of the study was to find a method of distinguishing 3D objects within a 2D image by application of an ensemble of shape feature extractors to the 2D silhouettes of the objects. Measures of shape features extracted from example silhouettes of objects to be discriminated were used to generate a classification rule tree by means of computer induction.
+
+#### Dataset characteristics
+
+- Number of samples = 1,846
+- Number of input features = 18
+- Number of target classes = 4
+- Has categorical features = No
+- Has missing values = No
+
+#### Attribution
+
+Data comes from this study:
+Siebert,JP. Turing Institute Research Memorandum TIRM-87-018 "Vehicle Recognition Using Rule Based Methods" (March 1987).
+
+Source:
+
+Drs.Pete Mowforth and Barry Shepherd
+Turing Institute
+George House
+36 North Hanover St.
+Glasgow
+G1 2AD
+
+Dataset can be found here:
+https://archive.ics.uci.edu/ml/datasets/Statlog+(Vehicle+Silhouettes)
+
+UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
 ---
