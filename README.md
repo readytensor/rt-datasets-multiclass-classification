@@ -89,28 +89,71 @@ Wagner, P. K. ; PERES, S. M. ; Madeo, R. C. B. ; Lima, C. A. M. ; Freitas, F. A.
 Creators: Renata Cristina Barros Madeo (Madeo, R. C. B.) Priscilla Koch Wagner (Wagner, P. K.) Sarajane Marques Peres (Peres, S. M.) {renata.si, priscilla.wagner, sarajane} at -A Home 04-06-2020 Dr. Sarajane M. Peres
 
 Dataset can be found here:
-
 https://archive.ics.uci.edu/ml/datasets/gesture+phase+segmentation#
 
 UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
 ---
 
-##
+## IPUMS Census Small
 
-#### Alias (in scorecards):
+#### Alias (in scorecards): ipums_census_small
 
-#### Domain / Industry:
+#### Domain / Industry: Demographics / Census
 
 #### Description
 
+The original source for this data set is the IPUMS project (RugglesSobek, 1997). The IPUMS project is a large collection of federal census data which has standardized coding schemes to make comparisons across time easy.
+
+The dataset consists of samples of households or dwellings from the Los Angeles - Long Beach area. We use the smaller version of the dataset which contains a 1 in 1000 sample from the given area. It was formed by sampling from the larger dataset (1 in 100 samples).
+
+The task is to predict the ‘movedin’ category, given various demographic attributes regarding households.
+
 #### Dataset characteristics
 
-- Number of samples =
-- Number of input features =
-- Number of target classes =
-- Has categorical features =
-- Has missing values =
+- Number of samples = 7,485
+- Number of input features = 61
+- Number of target classes = 7
+- Has categorical features = Yes
+- Has missing values = Yes
+
+#### Attribution
+
+Source:
+
+Steven Ruggles and Matthew Sobek et. al.
+Integrated Public Use Microdata Series: Version 2.0
+Minneapolis: Historical Census Projects,
+University of Minnesota, 1997
+
+Relevant paper:
+
+S. Ruggles. (1995). "Sample Designs and Sampling Errors". Historical Methods. Volume 28. Number 1. Pages 40 - 46.
+
+Dataset can be found here:
+https://archive.ics.uci.edu/ml/datasets/IPUMS+Census+Database
+
+UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+
+---
+
+## Landsat Satellite
+
+#### Alias (in scorecards): landsat_satellite
+
+#### Domain / Industry: Space / Geospatial Technology
+
+#### Description
+
+The database consists of the multi-spectral values of pixels in 3x3 neighbourhoods in a satellite image, and the classification associated with the central pixel in each neighbourhood. The aim is to predict this classification, given the multi-spectral values. In the sample database, the class of a pixel is coded as a number.
+
+#### Dataset characteristics
+
+- Number of samples = 6,435
+- Number of input features = 36
+- Number of target classes = 6
+- Has categorical features = No
+- Has missing values = No
 
 #### Attribution
 
@@ -134,45 +177,60 @@ UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: Uni
 
 #### Attribution
 
+Source:
+
+Ashwin Srinivasan
+Department of Statistics and Data Modeling
+University of Strathclyde
+Glasgow
+Scotland
+UK
+ross '@' uk.ac.turing
+
+The original Landsat data for this database was generated from data purchased from NASA by the Australian Centre for Remote Sensing, and used for research at:
+The Centre for Remote Sensing
+University of New South Wales
+Kensington, PO Box 1
+NSW 2033
+Australia.
+
+Dataset can be found here:
+http://archive.ics.uci.edu/ml/datasets/Statlog+(Landsat+Satellite)
+
+UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+
 ---
 
-##
+## Page Blocks Classification
 
-#### Alias (in scorecards):
+#### Alias (in scorecards): page_blocks
 
-#### Domain / Industry:
+#### Domain / Industry: Information / Digital Media
 
 #### Description
 
-#### Dataset characteristics
+The problem consists in classifying all the blocks of the page layout of a document that has been detected by a segmentation process. This is an essential step in document analysis in order to separate text from graphic areas. Indeed, the five classes are: text (1), horizontal line (2), picture (3), vertical line (4) and graphic (5).
 
-- Number of samples =
-- Number of input features =
-- Number of target classes =
-- Has categorical features =
-- Has missing values =
-
-#### Attribution
-
----
-
-##
-
-#### Alias (in scorecards):
-
-#### Domain / Industry:
-
-#### Description
+The inputs used for classification of each block include features such as block height, length, area, eccentricity, mean number of white-black transitions, etc.
 
 #### Dataset characteristics
 
-- Number of samples =
-- Number of input features =
-- Number of target classes =
-- Has categorical features =
-- Has missing values =
+- Number of samples = 5,473
+- Number of input features = 11
+- Number of target classes = 5
+- Has categorical features = No
+- Has missing values = No
 
 #### Attribution
+
+Creator:
+Donato Malerba Dipartimento di Informatica University of Bari via Orabona 4 70126 Bari - Italy phone: +39 - 80 - 5443269 fax: +39 - 80 - 5443196 malerbad@vm.csata.it
+
+Donor:
+Donato Malerba (c) Date: July 1995
+
+Dataset can be found here:
+https://www.openml.org/d/30
 
 ---
 
