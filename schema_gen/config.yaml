@@ -1,5 +1,5 @@
 model_categories:
-  classification_multi_base:
+  multiclass_classification_base:
     data_types:
       string: TEXT
       categorical: CATEGORICAL

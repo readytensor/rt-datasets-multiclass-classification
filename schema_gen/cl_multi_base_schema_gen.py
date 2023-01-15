@@ -6,7 +6,7 @@ import pprint
 from pathlib import Path
 
 
-model_category = "classification_multi_base"
+model_category = "multiclass_classification_base"
 version = "1.0"
 
 

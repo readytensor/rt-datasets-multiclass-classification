@@ -1,5 +1,5 @@
 {
-  "problemCategory": "classification_multi_base",
+  "problemCategory": "multiclass_classification_base",
   "version": "1.0",
   "inputDatasets": {
     "multiClassClassificationBaseMainInput": {
