@@ -1,25 +1,62 @@
 # Datasets for Multi-Class Classification Base category on Ready Tensor
 
-This repo contains all files related to the datasets used in algorithm evaluation for the Multi-Class Classification - Base category.
-
-The `datasets` folder contains the main data files and the schema files for all the benchmark datasets under Multi-Class Classification - Base category. Within each dataset folder in `datasets`:
-
-- The `raw` folder contains the original data files from the source (see attributions below).
+- The `raw` folder contains the original data files from the source (see attributions below). The Jupyter notebook file within each dataset folder is used to convert the raw data file for each dataset into the full processed dataset in `raw` folder into the processed form in `processed` folder.
 - `processed` folder contains the processed files. These files are used in algorithm evaluations.
+
   - The CSV file with suffix "\_train.csv" is used for training
   - "\_test.csv" is used for testing (without the targets)
-  - "\_test_key.csv" contains the targets for the test data. This test key file is used to generate scores by comparing with predictions.
+  - "\_test_key.csv" contains the ids and targets for the test data. This test key file is used to generate scores by comparing with predictions.
   - The JSON file with suffix "\_schema.json" is the schema file for the corresponding dataset.
-  - The json file with the suffix "\_infer_req.json" contains a sample JSON object with the data to make an inference request to the /infer endpoint.
+  - The json file with the suffix "\_inference_requeest_sample.json" contains a sample JSON object with the data to make an inference request to the /infer endpoint.
   - The CSV file with the dataset name, and no other suffix, is the full data (made of both train and test sets).
-- The Jupyter notebook file within each dataset folder is used to convert the raw data file(s) in `raw` folder into the processed form in `processed` folder.
-- The folder `schema_cfg` contains a csv which is needed by the schema generation script (described below) .
 
-`schema_gen` folder contains a schema gen config file (YAML) and a python script which are used to generate the JSON schema files stored in the `processed` folder for each dataset. The generated schema file conforms to the Ready Tensor specification for this category.
+- The folder `config` contains two csv files - one called `multiclass_classification_datasets_metadata.csv` which contains the dataset level attribute information. The second csv called `multiclass_classification_datasets_fields.csv` contains information regarding all the fields in each of the datasets.
+- `generate_schemas.py`: contains the code to generate the schema files for each dataset.
+- `create_train_test_key_files.py`: contains the code to generate the train, test, and test-key files for each dataset.
+- `generate_inference_data.py`: contains the code to generate the inference request sample data for each dataset.
+- `run_all.py`: This is used to run the above three scripts in sequence.
 
 ---
 
 The following is the list of datasets along with a brief description for each and its attribution:
+
+---
+
+## Car Evaluation
+
+#### Alias (in scorecards): car_evaluation
+
+#### Domain / Industry: Automotive
+
+#### Description
+
+Car Evaluation dataset - categorize cars into unacceptable, acceptable, good and very-good categories based on car attributes, all of which are categorical.
+
+#### Dataset characteristics
+
+- Number of samples = 1,728
+- Number of input features = 6
+- Number of target classes = 4
+- Has categorical features = Yes
+- Has missing values = No
+
+#### Attribution
+
+Creators:  
+Marko Bohanec
+
+Donors:  
+Marko Bohanec (marko.bohanec@ijs.si)  
+Blaz Zupan (blaz.zupan@ijs.si)
+
+Car Evaluation Database was derived from a simple hierarchical decision model originally developed for the demonstration of DEX, M. Bohanec, V. Rajkovic: Expert system for decision making. Sistemica 1(1), pp. 145-157, 1990.
+
+Dataset can be found here:  
+https://archive.ics.uci.edu/dataset/19/car+evaluation
+
+UCI Machine Learning Repository  
+http://archive.ics.uci.edu/ml  
+Irvine, CA: University of California, School of Information and Computer Science.
 
 ---
 
@@ -41,21 +78,25 @@ The problem posed in this dataset is to recognize, given a sequence of DNA, the 
 - Has categorical features = Yes
 - Has missing values = No
 
+Original dataset contains 3,190 samples. The field called `Instance` is used as the unique identifier. Some instance ids had multiple records - in such case, the first record is retained.
+
 #### Attribution
 
-Creators:
+Creators:  
 All examples taken from Genbank 64.1
 Categories "ei" and "ie" include every "split-gene" for primates in Genbank 64.1
 non-splice examples taken from sequences known not to include a splicing site
 
-Donor:
+Donor:  
 G. Towell, M. Noordewier, and J. Shavlik
 {towell,shavlik}@cs.wisc.edu, noordewi '@' cs.rutgers.edu}
 
-Dataset can be found here:
+Dataset can be found here:  
 http://archive.ics.uci.edu/ml/datasets/Molecular+Biology+(Splice-junction+Gene+Sequences)
 
-UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+UCI Machine Learning Repository  
+http://archive.ics.uci.edu/ml  
+Irvine, CA: University of California, School of Information and Computer Science.
 
 ---
 
@@ -86,12 +127,15 @@ ACM Symposium on Applied Computing (SAC), 2013. p. 46-52.
 
 Wagner, P. K. ; PERES, S. M. ; Madeo, R. C. B. ; Lima, C. A. M. ; Freitas, F. A. . Gesture Unit Segmentation Using Spatial-Temporal Information and Machine Learning. In: 27th Florida Artificial Intelligence Research Society Conference (FLAIRS), 2014, Pensacola Beach. Proceedings of the 27th Florida Artificial Intelligence Research Society Conference (FLAIRS). Palo Alto : The AAAI Press, 2014. p. 101-106.
 
-Creators: Renata Cristina Barros Madeo (Madeo, R. C. B.) Priscilla Koch Wagner (Wagner, P. K.) Sarajane Marques Peres (Peres, S. M.) {renata.si, priscilla.wagner, sarajane} at -A Home 04-06-2020 Dr. Sarajane M. Peres
+Creators:  
+Renata Cristina Barros Madeo (Madeo, R. C. B.) Priscilla Koch Wagner (Wagner, P. K.) Sarajane Marques Peres (Peres, S. M.) {renata.si, priscilla.wagner, sarajane} at -A Home 04-06-2020 Dr. Sarajane M. Peres
 
-Dataset can be found here:
+Dataset can be found here:  
 https://archive.ics.uci.edu/ml/datasets/gesture+phase+segmentation#
 
-UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+UCI Machine Learning Repository  
+http://archive.ics.uci.edu/ml  
+Irvine, CA: University of California, School of Information and Computer Science.
 
 ---
 
@@ -119,21 +163,21 @@ The task is to predict the ‘movedin’ category, given various demographic att
 
 #### Attribution
 
-Source:
-
+Source:  
 Steven Ruggles and Matthew Sobek et. al.
 Integrated Public Use Microdata Series: Version 2.0
 Minneapolis: Historical Census Projects,
 University of Minnesota, 1997
 
-Relevant paper:
-
+Relevant paper:  
 S. Ruggles. (1995). "Sample Designs and Sampling Errors". Historical Methods. Volume 28. Number 1. Pages 40 - 46.
 
-Dataset can be found here:
+Dataset can be found here:  
 https://archive.ics.uci.edu/ml/datasets/IPUMS+Census+Database
 
-UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+UCI Machine Learning Repository  
+http://archive.ics.uci.edu/ml  
+Irvine, CA: University of California, School of Information and Computer Science.
 
 ---
 
