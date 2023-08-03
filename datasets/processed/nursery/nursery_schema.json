@@ -1,0 +1,115 @@
+{
+  "title": "Nursery",
+  "summary": "Nursery Database was derived from a hierarchical decision model originally developed to rank applications for nursery schools. It was used during several years in 1980's when there was excessive enrollment to these schools in Ljubljana, Slovenia, and the rejected applications frequently needed an objective explanation.",
+  "modelCategory": "multiclass_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "id": {
+    "name": "id",
+    "description": "Unique identifier for each sample in the dataset."
+  },
+  "target": {
+    "name": "decision",
+    "description": "Decision class: not_recom, recommend, very_recom, priority, spec_prior",
+    "classes": [
+      "not_recom",
+      "priority",
+      "recommend",
+      "spec_prior",
+      "very_recom"
+    ]
+  },
+  "features": [
+    {
+      "name": "parents",
+      "description": "usual, pretentious, great_pret",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "great_pret",
+        "pretentious",
+        "usual"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "has_nurs",
+      "description": "proper, less_proper, improper, critical, very_crit",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "critical",
+        "improper",
+        "less_proper",
+        "proper",
+        "very_crit"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "form",
+      "description": "complete, completed, incomplete, foster",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "complete",
+        "completed",
+        "foster",
+        "incomplete"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "children",
+      "description": "1, 2, 3, more",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "1",
+        "2",
+        "3",
+        "more"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "housing",
+      "description": "convenient, less_conv, critical",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "convenient",
+        "critical",
+        "less_conv"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "finance",
+      "description": "convenient, inconv",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "convenient",
+        "inconv"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "social",
+      "description": "non-prob, slightly_prob, problematic",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "nonprob",
+        "problematic",
+        "slightly_prob"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "health",
+      "description": "recommended, priority, not_recom",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "not_recom",
+        "priority",
+        "recommended"
+      ],
+      "nullable": false
+    }
+  ]
+}

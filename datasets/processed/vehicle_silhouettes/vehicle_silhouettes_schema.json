@@ -1,0 +1,149 @@
+{
+  "title": "Vehicle Silhouettes",
+  "summary": "Dataset for classification of a given silhouette into one of four types of vehicle, using  a set of features extracted from the silhouette. The vehicle may be viewed from one of many different angles.",
+  "modelCategory": "multiclass_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "id": {
+    "name": "ID",
+    "description": "Unique identifier for each sample in the dataset."
+  },
+  "target": {
+    "name": "CLASS",
+    "description": "Target vehicle class: one of {OPEL, SAAB, BUS, VAN}",
+    "classes": [
+      "bus",
+      "opel",
+      "saab",
+      "van"
+    ]
+  },
+  "features": [
+    {
+      "name": "COMPACTNESS",
+      "description": "(average perim)**2/area",
+      "dataType": "NUMERIC",
+      "example": 95,
+      "nullable": false
+    },
+    {
+      "name": "CIRCULARITY",
+      "description": "(average radius)**2/area",
+      "dataType": "NUMERIC",
+      "example": 48,
+      "nullable": false
+    },
+    {
+      "name": "DISTANCE CIRCULARITY",
+      "description": "area/(av.distance from border)**2",
+      "dataType": "NUMERIC",
+      "example": 83,
+      "nullable": false
+    },
+    {
+      "name": "RADIUS RATIO",
+      "description": "(max.rad-min.rad)/av.radius",
+      "dataType": "NUMERIC",
+      "example": 178,
+      "nullable": false
+    },
+    {
+      "name": "PR.AXIS ASPECT RATIO",
+      "description": "(minor axis)/(major axis)",
+      "dataType": "NUMERIC",
+      "example": 72,
+      "nullable": false
+    },
+    {
+      "name": "MAX.LENGTH ASPECT RATIO",
+      "description": "(length perp. max length)/(max length)",
+      "dataType": "NUMERIC",
+      "example": 10,
+      "nullable": false
+    },
+    {
+      "name": "SCATTER RATIO",
+      "description": "(inertia about minor axis)/(inertia about major axis)",
+      "dataType": "NUMERIC",
+      "example": 162,
+      "nullable": false
+    },
+    {
+      "name": "ELONGATEDNESS",
+      "description": "area/(shrink width)**2",
+      "dataType": "NUMERIC",
+      "example": 42,
+      "nullable": false
+    },
+    {
+      "name": "PR.AXIS RECTANGULARITY",
+      "description": "area/(pr.axis length*pr.axis width)",
+      "dataType": "NUMERIC",
+      "example": 20,
+      "nullable": false
+    },
+    {
+      "name": "MAX.LENGTH RECTANGULARITY",
+      "description": "area/(max.length*length perp. to this)",
+      "dataType": "NUMERIC",
+      "example": 159,
+      "nullable": false
+    },
+    {
+      "name": "SCALED VARIANCE ALONG MAJOR AXIS",
+      "description": "(2nd order moment about minor axis)/area",
+      "dataType": "NUMERIC",
+      "example": 176,
+      "nullable": false
+    },
+    {
+      "name": "SCALED VARIANCE ALONG MINOR AXIS",
+      "description": "(2nd order moment about major axis)/area",
+      "dataType": "NUMERIC",
+      "example": 379,
+      "nullable": false
+    },
+    {
+      "name": "SCALED RADIUS OF GYRATION",
+      "description": "(mavar+mivar)/area",
+      "dataType": "NUMERIC",
+      "example": 184,
+      "nullable": false
+    },
+    {
+      "name": "SKEWNESS ABOUT MAJOR AXIS",
+      "description": "(3rd order moment about major axis)/sigma_min**3  where sigma_min**2 is the variance along the minor axis",
+      "dataType": "NUMERIC",
+      "example": 70,
+      "nullable": false
+    },
+    {
+      "name": "SKEWNESS ABOUT MINOR AXIS",
+      "description": "(3rd order moment about minor axis)/sigma_maj**3  where sigma_maj**2 is the variance along the major axis",
+      "dataType": "NUMERIC",
+      "example": 6,
+      "nullable": false
+    },
+    {
+      "name": "KURTOSIS ABOUT MAJOR AXIS",
+      "description": "(4th order moment about major axis)/sigma_min**4  where sigma_min**2 is the variance along the minor axis",
+      "dataType": "NUMERIC",
+      "example": 16,
+      "nullable": false
+    },
+    {
+      "name": "KURTOSIS ABOUT MINOR AXIS",
+      "description": "(4th order moment about minor axis)/sigma_maj**4 where sigma_maj**2 is the variance along the major axis",
+      "dataType": "NUMERIC",
+      "example": 187,
+      "nullable": false
+    },
+    {
+      "name": "HOLLOWS RATIO",
+      "description": "(area of hollows)/(area of bounding polygon)",
+      "dataType": "NUMERIC",
+      "example": 197,
+      "nullable": false
+    }
+  ]
+}

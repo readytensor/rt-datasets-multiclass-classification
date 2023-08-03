@@ -1,0 +1,92 @@
+{
+  "title": "Car Evaluation",
+  "summary": "Car Evaluation dataset - categorize cars into unacceptable, acceptable, good and very-good categories based on car attributes, all of which are categorical.",
+  "modelCategory": "multiclass_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "id": {
+    "name": "id",
+    "description": "Unique identifier for each sample in the dataset."
+  },
+  "target": {
+    "name": "evaluation",
+    "description": "Car evaluation into categories: [unacc, acc, good, v-good]",
+    "classes": [
+      "acc",
+      "good",
+      "unacc",
+      "vgood"
+    ]
+  },
+  "features": [
+    {
+      "name": "buying",
+      "description": "overall price category:  low, med, high, vhigh",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "high",
+        "low",
+        "med",
+        "vhigh"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "maint",
+      "description": "category of price of the maintenance: low, med, high, vhigh",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "high",
+        "low",
+        "med",
+        "vhigh"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "doors",
+      "description": "number of doors: 2, 3, 4, 5more",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "2",
+        "3",
+        "4",
+        "5more"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "persons",
+      "description": "capacity in terms of persons to carry: 2, 4, more",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "2",
+        "4",
+        "more"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "lug_boot",
+      "description": "category for the size of luggage boot: small, med, big",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "big",
+        "med",
+        "small"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "safety",
+      "description": "category for estimated safety of the car: low, med, high",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "high",
+        "low",
+        "med"
+      ],
+      "nullable": false
+    }
+  ]
+}

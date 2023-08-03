@@ -1,0 +1,536 @@
+{
+  "title": "Six Concentric Spheres",
+  "summary": "This is a synthetically dataset consisting of a series of 3D spheres nested within each other. Each sphere forms a distinct class, presenting a multi-class classification problem in a 3-dimensional space.",
+  "modelCategory": "multiclass_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "id": {
+    "name": "id",
+    "description": "Unique identifier for each sample in the dataset."
+  },
+  "target": {
+    "name": "sphere",
+    "description": "Target: sphere number - one of {0, 1, 2, 3, 4, 5}",
+    "classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "features": [
+    {
+      "name": "x",
+      "description": "x",
+      "dataType": "NUMERIC",
+      "example": -2.6346,
+      "nullable": true
+    },
+    {
+      "name": "y",
+      "description": "y",
+      "dataType": "NUMERIC",
+      "example": -0.8678,
+      "nullable": true
+    },
+    {
+      "name": "z",
+      "description": "z",
+      "dataType": "NUMERIC",
+      "example": 2.8841,
+      "nullable": true
+    },
+    {
+      "name": "dummy_1",
+      "description": "dummy_1",
+      "dataType": "NUMERIC",
+      "example": 0.3063,
+      "nullable": true
+    },
+    {
+      "name": "dummy_2",
+      "description": "dummy_2",
+      "dataType": "NUMERIC",
+      "example": 0.678,
+      "nullable": true
+    },
+    {
+      "name": "dummy_3",
+      "description": "dummy_3",
+      "dataType": "NUMERIC",
+      "example": 0.5168,
+      "nullable": true
+    },
+    {
+      "name": "dummy_4",
+      "description": "dummy_4",
+      "dataType": "NUMERIC",
+      "example": 0.5812,
+      "nullable": true
+    },
+    {
+      "name": "dummy_5",
+      "description": "dummy_5",
+      "dataType": "NUMERIC",
+      "example": 0.3976,
+      "nullable": true
+    },
+    {
+      "name": "dummy_6",
+      "description": "dummy_6",
+      "dataType": "NUMERIC",
+      "example": 0.3227,
+      "nullable": true
+    },
+    {
+      "name": "dummy_7",
+      "description": "dummy_7",
+      "dataType": "NUMERIC",
+      "example": 0.6358,
+      "nullable": true
+    },
+    {
+      "name": "dummy_8",
+      "description": "dummy_8",
+      "dataType": "NUMERIC",
+      "example": 0.0965,
+      "nullable": true
+    },
+    {
+      "name": "dummy_9",
+      "description": "dummy_9",
+      "dataType": "NUMERIC",
+      "example": 0.0764,
+      "nullable": true
+    },
+    {
+      "name": "dummy_10",
+      "description": "dummy_10",
+      "dataType": "NUMERIC",
+      "example": 0.4044,
+      "nullable": true
+    },
+    {
+      "name": "dummy_11",
+      "description": "dummy_11",
+      "dataType": "NUMERIC",
+      "example": 0.7149,
+      "nullable": true
+    },
+    {
+      "name": "dummy_12",
+      "description": "dummy_12",
+      "dataType": "NUMERIC",
+      "example": 0.7677,
+      "nullable": true
+    },
+    {
+      "name": "dummy_13",
+      "description": "dummy_13",
+      "dataType": "NUMERIC",
+      "example": 0.6741,
+      "nullable": true
+    },
+    {
+      "name": "dummy_14",
+      "description": "dummy_14",
+      "dataType": "NUMERIC",
+      "example": 0.6605,
+      "nullable": true
+    },
+    {
+      "name": "dummy_15",
+      "description": "dummy_15",
+      "dataType": "NUMERIC",
+      "example": 0.2976,
+      "nullable": true
+    },
+    {
+      "name": "dummy_16",
+      "description": "dummy_16",
+      "dataType": "NUMERIC",
+      "example": 0.2806,
+      "nullable": true
+    },
+    {
+      "name": "dummy_17",
+      "description": "dummy_17",
+      "dataType": "NUMERIC",
+      "example": 0.4616,
+      "nullable": true
+    },
+    {
+      "name": "dummy_18",
+      "description": "dummy_18",
+      "dataType": "NUMERIC",
+      "example": 0.4611,
+      "nullable": true
+    },
+    {
+      "name": "dummy_19",
+      "description": "dummy_19",
+      "dataType": "NUMERIC",
+      "example": 0.012,
+      "nullable": true
+    },
+    {
+      "name": "dummy_20",
+      "description": "dummy_20",
+      "dataType": "NUMERIC",
+      "example": 0.5035,
+      "nullable": true
+    },
+    {
+      "name": "dummy_21",
+      "description": "dummy_21",
+      "dataType": "NUMERIC",
+      "example": 0.7088,
+      "nullable": true
+    },
+    {
+      "name": "dummy_22",
+      "description": "dummy_22",
+      "dataType": "NUMERIC",
+      "example": 0.9612,
+      "nullable": true
+    },
+    {
+      "name": "dummy_23",
+      "description": "dummy_23",
+      "dataType": "NUMERIC",
+      "example": 0.1687,
+      "nullable": true
+    },
+    {
+      "name": "dummy_24",
+      "description": "dummy_24",
+      "dataType": "NUMERIC",
+      "example": 0.5004,
+      "nullable": true
+    },
+    {
+      "name": "dummy_25",
+      "description": "dummy_25",
+      "dataType": "NUMERIC",
+      "example": 0.8476,
+      "nullable": true
+    },
+    {
+      "name": "dummy_26",
+      "description": "dummy_26",
+      "dataType": "NUMERIC",
+      "example": 0.6066,
+      "nullable": true
+    },
+    {
+      "name": "dummy_27",
+      "description": "dummy_27",
+      "dataType": "NUMERIC",
+      "example": 0.076,
+      "nullable": true
+    },
+    {
+      "name": "dummy_28",
+      "description": "dummy_28",
+      "dataType": "NUMERIC",
+      "example": 0.4564,
+      "nullable": true
+    },
+    {
+      "name": "dummy_29",
+      "description": "dummy_29",
+      "dataType": "NUMERIC",
+      "example": 0.8522,
+      "nullable": true
+    },
+    {
+      "name": "dummy_30",
+      "description": "dummy_30",
+      "dataType": "NUMERIC",
+      "example": 0.0019,
+      "nullable": true
+    },
+    {
+      "name": "dummy_31",
+      "description": "dummy_31",
+      "dataType": "NUMERIC",
+      "example": 0.4954,
+      "nullable": true
+    },
+    {
+      "name": "dummy_32",
+      "description": "dummy_32",
+      "dataType": "NUMERIC",
+      "example": 0.5121,
+      "nullable": true
+    },
+    {
+      "name": "dummy_33",
+      "description": "dummy_33",
+      "dataType": "NUMERIC",
+      "example": 0.9518,
+      "nullable": true
+    },
+    {
+      "name": "dummy_34",
+      "description": "dummy_34",
+      "dataType": "NUMERIC",
+      "example": 0.3871,
+      "nullable": true
+    },
+    {
+      "name": "dummy_35",
+      "description": "dummy_35",
+      "dataType": "NUMERIC",
+      "example": 0.5837,
+      "nullable": true
+    },
+    {
+      "name": "dummy_36",
+      "description": "dummy_36",
+      "dataType": "NUMERIC",
+      "example": 0.6296,
+      "nullable": true
+    },
+    {
+      "name": "dummy_37",
+      "description": "dummy_37",
+      "dataType": "NUMERIC",
+      "example": 0.4977,
+      "nullable": true
+    },
+    {
+      "name": "dummy_38",
+      "description": "dummy_38",
+      "dataType": "NUMERIC",
+      "example": 0.9235,
+      "nullable": true
+    },
+    {
+      "name": "dummy_39",
+      "description": "dummy_39",
+      "dataType": "NUMERIC",
+      "example": 0.9829,
+      "nullable": true
+    },
+    {
+      "name": "dummy_40",
+      "description": "dummy_40",
+      "dataType": "NUMERIC",
+      "example": 0.6696,
+      "nullable": true
+    },
+    {
+      "name": "dummy_41",
+      "description": "dummy_41",
+      "dataType": "NUMERIC",
+      "example": 0.483,
+      "nullable": true
+    },
+    {
+      "name": "dummy_42",
+      "description": "dummy_42",
+      "dataType": "NUMERIC",
+      "example": 0.0034,
+      "nullable": true
+    },
+    {
+      "name": "dummy_43",
+      "description": "dummy_43",
+      "dataType": "NUMERIC",
+      "example": 0.2662,
+      "nullable": true
+    },
+    {
+      "name": "dummy_44",
+      "description": "dummy_44",
+      "dataType": "NUMERIC",
+      "example": 0.2384,
+      "nullable": true
+    },
+    {
+      "name": "dummy_45",
+      "description": "dummy_45",
+      "dataType": "NUMERIC",
+      "example": 0.7429,
+      "nullable": true
+    },
+    {
+      "name": "dummy_46",
+      "description": "dummy_46",
+      "dataType": "NUMERIC",
+      "example": 0.1136,
+      "nullable": true
+    },
+    {
+      "name": "dummy_47",
+      "description": "dummy_47",
+      "dataType": "NUMERIC",
+      "example": 0.0961,
+      "nullable": true
+    },
+    {
+      "name": "dummy_48",
+      "description": "dummy_48",
+      "dataType": "NUMERIC",
+      "example": 0.6332,
+      "nullable": true
+    },
+    {
+      "name": "dummy_49",
+      "description": "dummy_49",
+      "dataType": "NUMERIC",
+      "example": 0.609,
+      "nullable": true
+    },
+    {
+      "name": "dummy_50",
+      "description": "dummy_50",
+      "dataType": "NUMERIC",
+      "example": 0.0248,
+      "nullable": true
+    },
+    {
+      "name": "dummy_51",
+      "description": "dummy_51",
+      "dataType": "NUMERIC",
+      "example": 0.5528,
+      "nullable": true
+    },
+    {
+      "name": "dummy_52",
+      "description": "dummy_52",
+      "dataType": "NUMERIC",
+      "example": 0.1862,
+      "nullable": true
+    },
+    {
+      "name": "dummy_53",
+      "description": "dummy_53",
+      "dataType": "NUMERIC",
+      "example": 0.9764,
+      "nullable": true
+    },
+    {
+      "name": "dummy_54",
+      "description": "dummy_54",
+      "dataType": "NUMERIC",
+      "example": 0.7613,
+      "nullable": true
+    },
+    {
+      "name": "dummy_55",
+      "description": "dummy_55",
+      "dataType": "NUMERIC",
+      "example": 0.1302,
+      "nullable": true
+    },
+    {
+      "name": "dummy_56",
+      "description": "dummy_56",
+      "dataType": "NUMERIC",
+      "example": 0.1632,
+      "nullable": true
+    },
+    {
+      "name": "dummy_57",
+      "description": "dummy_57",
+      "dataType": "NUMERIC",
+      "example": 0.1039,
+      "nullable": true
+    },
+    {
+      "name": "dummy_58",
+      "description": "dummy_58",
+      "dataType": "NUMERIC",
+      "example": 0.9164,
+      "nullable": true
+    },
+    {
+      "name": "dummy_59",
+      "description": "dummy_59",
+      "dataType": "NUMERIC",
+      "example": 0.4837,
+      "nullable": true
+    },
+    {
+      "name": "dummy_60",
+      "description": "dummy_60",
+      "dataType": "NUMERIC",
+      "example": 0.0832,
+      "nullable": true
+    },
+    {
+      "name": "dummy_61",
+      "description": "dummy_61",
+      "dataType": "NUMERIC",
+      "example": 0.6486,
+      "nullable": true
+    },
+    {
+      "name": "dummy_62",
+      "description": "dummy_62",
+      "dataType": "NUMERIC",
+      "example": 0.7549,
+      "nullable": true
+    },
+    {
+      "name": "dummy_63",
+      "description": "dummy_63",
+      "dataType": "NUMERIC",
+      "example": 0.5241,
+      "nullable": true
+    },
+    {
+      "name": "dummy_64",
+      "description": "dummy_64",
+      "dataType": "NUMERIC",
+      "example": 0.7887,
+      "nullable": true
+    },
+    {
+      "name": "dummy_65",
+      "description": "dummy_65",
+      "dataType": "NUMERIC",
+      "example": 0.8669,
+      "nullable": true
+    },
+    {
+      "name": "dummy_66",
+      "description": "dummy_66",
+      "dataType": "NUMERIC",
+      "example": 0.9643,
+      "nullable": true
+    },
+    {
+      "name": "dummy_67",
+      "description": "dummy_67",
+      "dataType": "NUMERIC",
+      "example": 0.6145,
+      "nullable": true
+    },
+    {
+      "name": "corr_x",
+      "description": "corr_x",
+      "dataType": "NUMERIC",
+      "example": -1.317,
+      "nullable": true
+    },
+    {
+      "name": "corr_y",
+      "description": "corr_y",
+      "dataType": "NUMERIC",
+      "example": -0.449,
+      "nullable": true
+    },
+    {
+      "name": "corr_z",
+      "description": "corr_z",
+      "dataType": "NUMERIC",
+      "example": 1.4208,
+      "nullable": true
+    }
+  ]
+}

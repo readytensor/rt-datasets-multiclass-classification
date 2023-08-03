@@ -1,0 +1,42 @@
+{
+  "instances": [
+    {
+      "id": "0",
+      "date": "october",
+      "plant-stand": " normal",
+      "precip": " gt-norm",
+      "temp": " norm",
+      "hail": " yes",
+      "crop-hist": " same-lst-yr",
+      "area-damaged": " low-areas",
+      "severity": " pot-severe",
+      "seed-tmt": " none",
+      "germination": " 90-100",
+      "plant-growth": " abnorm",
+      "leaves": " abnorm",
+      "leafspots-halo": " absent",
+      "leafspots-marg": " dna",
+      "leafspot-size": " dna",
+      "leaf-shred": " absent",
+      "leaf-malf": " absent",
+      "leaf-mild": " absent",
+      " stem": " abnorm",
+      "lodging": " no",
+      "stem-cankers": " above-sec-nde",
+      "canker-lesion": " brown",
+      "fruiting-bodies": " present",
+      "external decay": " firm-and-dry",
+      "mycelium": " absent",
+      "int-discolor": " none",
+      "sclerotia": " absent",
+      "fruit-pods": " norm",
+      "fruit-spots": " dna",
+      "seed": " norm",
+      "mold-growth": " absent",
+      "seed-discolor": " absent",
+      "seed-size": " norm",
+      "shriveling": " absent",
+      "roots": " norm"
+    }
+  ]
+}

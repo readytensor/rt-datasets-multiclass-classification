@@ -1,0 +1,15 @@
+{
+  "instances": [
+    {
+      "id": "0",
+      "parents": "usual",
+      "has_nurs": "proper",
+      "form": "complete",
+      "children": "1",
+      "housing": "convenient",
+      "finance": "convenient",
+      "social": "nonprob",
+      "health": "recommended"
+    }
+  ]
+}

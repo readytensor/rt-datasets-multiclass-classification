@@ -1,0 +1,494 @@
+model_category,name,field_num,field_name,field_type,data_type,field_description
+multiclass_classification,car_evaluation,1,id,id,TEXT,Unique identifier for each sample in the dataset.
+multiclass_classification,car_evaluation,2,buying,feature,CATEGORICAL,"overall price category:  low, med, high, vhigh"
+multiclass_classification,car_evaluation,3,maint,feature,CATEGORICAL,"category of price of the maintenance: low, med, high, vhigh"
+multiclass_classification,car_evaluation,4,doors,feature,CATEGORICAL,"number of doors: 2, 3, 4, 5more"
+multiclass_classification,car_evaluation,5,persons,feature,CATEGORICAL,"capacity in terms of persons to carry: 2, 4, more"
+multiclass_classification,car_evaluation,6,lug_boot,feature,CATEGORICAL,"category for the size of luggage boot: small, med, big"
+multiclass_classification,car_evaluation,7,safety,feature,CATEGORICAL,"category for estimated safety of the car: low, med, high"
+multiclass_classification,car_evaluation,8,evaluation,target,CATEGORICAL,"evaluation category: unacc, acc, good, vgood"
+multiclass_classification,dna_splice_junction,1,Class,target,CATEGORICAL,Target class: one of {n ei ie}. 'EI' is exon/intron boundary; 'IE' is intro/exon boundary; and 'N' is neither
+multiclass_classification,dna_splice_junction,2,Instance,id,TEXT,The instance name.
+multiclass_classification,dna_splice_junction,3,Position_-30,feature,CATEGORICAL,base type in position -30 in sequence
+multiclass_classification,dna_splice_junction,4,Position_-29,feature,CATEGORICAL,base type in position -29 in sequence
+multiclass_classification,dna_splice_junction,5,Position_-28,feature,CATEGORICAL,base type in position -28 in sequence
+multiclass_classification,dna_splice_junction,6,Position_-27,feature,CATEGORICAL,base type in position -27 in sequence
+multiclass_classification,dna_splice_junction,7,Position_-26,feature,CATEGORICAL,base type in position -26 in sequence
+multiclass_classification,dna_splice_junction,8,Position_-25,feature,CATEGORICAL,base type in position -25 in sequence
+multiclass_classification,dna_splice_junction,9,Position_-24,feature,CATEGORICAL,base type in position -24 in sequence
+multiclass_classification,dna_splice_junction,10,Position_-23,feature,CATEGORICAL,base type in position -23 in sequence
+multiclass_classification,dna_splice_junction,11,Position_-22,feature,CATEGORICAL,base type in position -22 in sequence
+multiclass_classification,dna_splice_junction,12,Position_-21,feature,CATEGORICAL,base type in position -21 in sequence
+multiclass_classification,dna_splice_junction,13,Position_-20,feature,CATEGORICAL,base type in position -20 in sequence
+multiclass_classification,dna_splice_junction,14,Position_-19,feature,CATEGORICAL,base type in position -19 in sequence
+multiclass_classification,dna_splice_junction,15,Position_-18,feature,CATEGORICAL,base type in position -18 in sequence
+multiclass_classification,dna_splice_junction,16,Position_-17,feature,CATEGORICAL,base type in position -17 in sequence
+multiclass_classification,dna_splice_junction,17,Position_-16,feature,CATEGORICAL,base type in position -16 in sequence
+multiclass_classification,dna_splice_junction,18,Position_-15,feature,CATEGORICAL,base type in position -15 in sequence
+multiclass_classification,dna_splice_junction,19,Position_-14,feature,CATEGORICAL,base type in position -14 in sequence
+multiclass_classification,dna_splice_junction,20,Position_-13,feature,CATEGORICAL,base type in position -13 in sequence
+multiclass_classification,dna_splice_junction,21,Position_-12,feature,CATEGORICAL,base type in position -12 in sequence
+multiclass_classification,dna_splice_junction,22,Position_-11,feature,CATEGORICAL,base type in position -11 in sequence
+multiclass_classification,dna_splice_junction,23,Position_-10,feature,CATEGORICAL,base type in position -10 in sequence
+multiclass_classification,dna_splice_junction,24,Position_-9,feature,CATEGORICAL,base type in position -9 in sequence
+multiclass_classification,dna_splice_junction,25,Position_-8,feature,CATEGORICAL,base type in position -8 in sequence
+multiclass_classification,dna_splice_junction,26,Position_-7,feature,CATEGORICAL,base type in position -7 in sequence
+multiclass_classification,dna_splice_junction,27,Position_-6,feature,CATEGORICAL,base type in position -6 in sequence
+multiclass_classification,dna_splice_junction,28,Position_-5,feature,CATEGORICAL,base type in position -5 in sequence
+multiclass_classification,dna_splice_junction,29,Position_-4,feature,CATEGORICAL,base type in position -4 in sequence
+multiclass_classification,dna_splice_junction,30,Position_-3,feature,CATEGORICAL,base type in position -3 in sequence
+multiclass_classification,dna_splice_junction,31,Position_-2,feature,CATEGORICAL,base type in position -2 in sequence
+multiclass_classification,dna_splice_junction,32,Position_-1,feature,CATEGORICAL,base type in position -1 in sequence
+multiclass_classification,dna_splice_junction,33,Position_+1,feature,CATEGORICAL,base type in position +1 in sequence
+multiclass_classification,dna_splice_junction,34,Position_+2,feature,CATEGORICAL,base type in position +2 in sequence
+multiclass_classification,dna_splice_junction,35,Position_+3,feature,CATEGORICAL,base type in position +3 in sequence
+multiclass_classification,dna_splice_junction,36,Position_+4,feature,CATEGORICAL,base type in position +4 in sequence
+multiclass_classification,dna_splice_junction,37,Position_+5,feature,CATEGORICAL,base type in position +5 in sequence
+multiclass_classification,dna_splice_junction,38,Position_+6,feature,CATEGORICAL,base type in position +6 in sequence
+multiclass_classification,dna_splice_junction,39,Position_+7,feature,CATEGORICAL,base type in position +7 in sequence
+multiclass_classification,dna_splice_junction,40,Position_+8,feature,CATEGORICAL,base type in position +8 in sequence
+multiclass_classification,dna_splice_junction,41,Position_+9,feature,CATEGORICAL,base type in position +9 in sequence
+multiclass_classification,dna_splice_junction,42,Position_+10,feature,CATEGORICAL,base type in position +10 in sequence
+multiclass_classification,dna_splice_junction,43,Position_+11,feature,CATEGORICAL,base type in position +11 in sequence
+multiclass_classification,dna_splice_junction,44,Position_+12,feature,CATEGORICAL,base type in position +12 in sequence
+multiclass_classification,dna_splice_junction,45,Position_+13,feature,CATEGORICAL,base type in position +13 in sequence
+multiclass_classification,dna_splice_junction,46,Position_+14,feature,CATEGORICAL,base type in position +14 in sequence
+multiclass_classification,dna_splice_junction,47,Position_+15,feature,CATEGORICAL,base type in position +15 in sequence
+multiclass_classification,dna_splice_junction,48,Position_+16,feature,CATEGORICAL,base type in position +16 in sequence
+multiclass_classification,dna_splice_junction,49,Position_+17,feature,CATEGORICAL,base type in position +17 in sequence
+multiclass_classification,dna_splice_junction,50,Position_+18,feature,CATEGORICAL,base type in position +18 in sequence
+multiclass_classification,dna_splice_junction,51,Position_+19,feature,CATEGORICAL,base type in position +19 in sequence
+multiclass_classification,dna_splice_junction,52,Position_+20,feature,CATEGORICAL,base type in position +20 in sequence
+multiclass_classification,dna_splice_junction,53,Position_+21,feature,CATEGORICAL,base type in position +21 in sequence
+multiclass_classification,dna_splice_junction,54,Position_+22,feature,CATEGORICAL,base type in position +22 in sequence
+multiclass_classification,dna_splice_junction,55,Position_+23,feature,CATEGORICAL,base type in position +23 in sequence
+multiclass_classification,dna_splice_junction,56,Position_+24,feature,CATEGORICAL,base type in position +24 in sequence
+multiclass_classification,dna_splice_junction,57,Position_+25,feature,CATEGORICAL,base type in position +25 in sequence
+multiclass_classification,dna_splice_junction,58,Position_+26,feature,CATEGORICAL,base type in position +26 in sequence
+multiclass_classification,dna_splice_junction,59,Position_+27,feature,CATEGORICAL,base type in position +27 in sequence
+multiclass_classification,dna_splice_junction,60,Position_+28,feature,CATEGORICAL,base type in position +28 in sequence
+multiclass_classification,dna_splice_junction,61,Position_+29,feature,CATEGORICAL,base type in position +29 in sequence
+multiclass_classification,dna_splice_junction,62,Position_+30,feature,CATEGORICAL,base type in position +30 in sequence
+multiclass_classification,gesture_phase,1,Id,id,TEXT,Unique identifier for each sample in the dataset.
+multiclass_classification,gesture_phase,2,X1,feature,NUMERIC,Vectorial velocity of left hand (x coordinate)
+multiclass_classification,gesture_phase,3,X2,feature,NUMERIC,Vectorial velocity of left hand (y coordinate)
+multiclass_classification,gesture_phase,4,X3,feature,NUMERIC,Vectorial velocity of left hand (z coordinate)
+multiclass_classification,gesture_phase,5,X4,feature,NUMERIC,Vectorial velocity of right hand (x coordinate)
+multiclass_classification,gesture_phase,6,X5,feature,NUMERIC,Vectorial velocity of right hand (y coordinate)
+multiclass_classification,gesture_phase,7,X6,feature,NUMERIC,Vectorial velocity of right hand (z coordinate)
+multiclass_classification,gesture_phase,8,X7,feature,NUMERIC,Vectorial velocity of left wrist (x coordinate)
+multiclass_classification,gesture_phase,9,X8,feature,NUMERIC,Vectorial velocity of left wrist (y coordinate)
+multiclass_classification,gesture_phase,10,X9,feature,NUMERIC,Vectorial velocity of left wrist (z coordinate)
+multiclass_classification,gesture_phase,11,X10,feature,NUMERIC,Vectorial velocity of right wrist (x coordinate)
+multiclass_classification,gesture_phase,12,X11,feature,NUMERIC,Vectorial velocity of right wrist (y coordinate)
+multiclass_classification,gesture_phase,13,X12,feature,NUMERIC,Vectorial velocity of right wrist (z coordinate)
+multiclass_classification,gesture_phase,14,X13,feature,NUMERIC,Vectorial acceleration of left hand (x coordinate)
+multiclass_classification,gesture_phase,15,X14,feature,NUMERIC,Vectorial acceleration of left hand (y coordinate)
+multiclass_classification,gesture_phase,16,X15,feature,NUMERIC,Vectorial acceleration of left hand (z coordinate)
+multiclass_classification,gesture_phase,17,X16,feature,NUMERIC,Vectorial acceleration of right hand (x coordinate)
+multiclass_classification,gesture_phase,18,X17,feature,NUMERIC,Vectorial acceleration of right hand (y coordinate)
+multiclass_classification,gesture_phase,19,X18,feature,NUMERIC,Vectorial acceleration of right hand (z coordinate)
+multiclass_classification,gesture_phase,20,X19,feature,NUMERIC,Vectorial acceleration of left wrist (x coordinate)
+multiclass_classification,gesture_phase,21,X20,feature,NUMERIC,Vectorial acceleration of left wrist (y coordinate)
+multiclass_classification,gesture_phase,22,X21,feature,NUMERIC,Vectorial acceleration of left wrist (z coordinate)
+multiclass_classification,gesture_phase,23,X22,feature,NUMERIC,Vectorial acceleration of right wrist (x coordinate)
+multiclass_classification,gesture_phase,24,X23,feature,NUMERIC,Vectorial acceleration of right wrist (y coordinate)
+multiclass_classification,gesture_phase,25,X24,feature,NUMERIC,Vectorial acceleration of right wrist (z coordinate)
+multiclass_classification,gesture_phase,26,X25,feature,NUMERIC,Scalar velocity of left hand
+multiclass_classification,gesture_phase,27,X26,feature,NUMERIC,Scalar velocity of right hand
+multiclass_classification,gesture_phase,28,X27,feature,NUMERIC,Scalar velocity of left wrist
+multiclass_classification,gesture_phase,29,X28,feature,NUMERIC,Scalar velocity of right wrist
+multiclass_classification,gesture_phase,30,X29,feature,NUMERIC,Scalar acceleration of left hand
+multiclass_classification,gesture_phase,31,X30,feature,NUMERIC,Scalar acceleration of right hand
+multiclass_classification,gesture_phase,32,X31,feature,NUMERIC,Scalar acceleration of left wrist
+multiclass_classification,gesture_phase,33,X32,feature,NUMERIC,Scalar acceleration of right wrist
+multiclass_classification,gesture_phase,34,Phase,target,CATEGORICAL,"Phase segment: D (rest position, from portuguese ""descanso""); P (preparation); S (stroke); H (hold); R (retraction)"
+multiclass_classification,ipums_census_small,1,id,id,TEXT,Unique identifier for each sample in the dataset.
+multiclass_classification,ipums_census_small,2,year,feature,CATEGORICAL,census year
+multiclass_classification,ipums_census_small,3,gq,feature,CATEGORICAL,Group quarters status
+multiclass_classification,ipums_census_small,4,gqtypeg,feature,CATEGORICAL,Group quarters type
+multiclass_classification,ipums_census_small,5,farm,feature,CATEGORICAL,Farm status
+multiclass_classification,ipums_census_small,6,ownershg,feature,CATEGORICAL,Ownership of dwelling (rental or owned)
+multiclass_classification,ipums_census_small,7,value,feature,NUMERIC,House value
+multiclass_classification,ipums_census_small,8,rent,feature,NUMERIC,Monthly contract rent
+multiclass_classification,ipums_census_small,9,ftotinc,feature,NUMERIC,Total family income
+multiclass_classification,ipums_census_small,10,nfams,feature,NUMERIC,Number of families in household
+multiclass_classification,ipums_census_small,11,ncouples,feature,NUMERIC,Number of couples in household
+multiclass_classification,ipums_census_small,12,nmothers,feature,NUMERIC,Number of mothers in household
+multiclass_classification,ipums_census_small,13,nfathers,feature,NUMERIC,Number of fathers in household
+multiclass_classification,ipums_census_small,14,momloc,feature,CATEGORICAL,Mother's location in the household
+multiclass_classification,ipums_census_small,15,stepmom,feature,CATEGORICAL,Probable step/adopted mother
+multiclass_classification,ipums_census_small,16,momrule,feature,CATEGORICAL,Rule for linking mother (new)
+multiclass_classification,ipums_census_small,17,poploc,feature,CATEGORICAL,Father's location in the household
+multiclass_classification,ipums_census_small,18,steppop,feature,CATEGORICAL,Probable step/adopted father
+multiclass_classification,ipums_census_small,19,poprule,feature,CATEGORICAL,Rule for linking father (new)
+multiclass_classification,ipums_census_small,20,sploc,feature,CATEGORICAL,Spouse's location in household
+multiclass_classification,ipums_census_small,21,sprule,feature,CATEGORICAL,Rule for linking spouse or partner (new)
+multiclass_classification,ipums_census_small,22,famsize,feature,NUMERIC,Number of own family members in household
+multiclass_classification,ipums_census_small,23,nchild,feature,NUMERIC,Number of own children in the household
+multiclass_classification,ipums_census_small,24,nchlt5,feature,NUMERIC,Number of own children under age 5 in household
+multiclass_classification,ipums_census_small,25,famunit,feature,CATEGORICAL,Family unit membership
+multiclass_classification,ipums_census_small,26,eldch,feature,NUMERIC,Age of eldest own child in household
+multiclass_classification,ipums_census_small,27,yngch,feature,NUMERIC,Age of youngest own child in household
+multiclass_classification,ipums_census_small,28,nsibs,feature,NUMERIC,Number of own siblings in household
+multiclass_classification,ipums_census_small,29,relateg,feature,CATEGORICAL,Relationship to household head
+multiclass_classification,ipums_census_small,30,age,feature,NUMERIC,Age
+multiclass_classification,ipums_census_small,31,sex,feature,CATEGORICAL,Sex
+multiclass_classification,ipums_census_small,32,raceg,feature,CATEGORICAL,Race group
+multiclass_classification,ipums_census_small,33,marst,feature,CATEGORICAL,Marital status
+multiclass_classification,ipums_census_small,34,chborn,feature,CATEGORICAL,Children ever born
+multiclass_classification,ipums_census_small,35,bplg,feature,CATEGORICAL,Birthplace
+multiclass_classification,ipums_census_small,36,school,feature,CATEGORICAL,School attendance
+multiclass_classification,ipums_census_small,37,educrec,feature,CATEGORICAL,Educational attainment
+multiclass_classification,ipums_census_small,38,schltype,feature,CATEGORICAL,Public or private school
+multiclass_classification,ipums_census_small,39,empstatg,feature,CATEGORICAL,Employment status
+multiclass_classification,ipums_census_small,40,labforce,feature,CATEGORICAL,Labor force status
+multiclass_classification,ipums_census_small,41,occ1950,feature,CATEGORICAL,"Occupation, 1950 basis"
+multiclass_classification,ipums_census_small,42,occscore,feature,NUMERIC,"Occupational income score	"
+multiclass_classification,ipums_census_small,43,sei,feature,NUMERIC,Duncan Socioeconomic Index
+multiclass_classification,ipums_census_small,44,ind1950,feature,CATEGORICAL,"Industry, 1950 basis"
+multiclass_classification,ipums_census_small,45,classwkg,feature,CATEGORICAL,Class of worker
+multiclass_classification,ipums_census_small,46,wkswork2,feature,CATEGORICAL,"Weeks worked last year, intervalled"
+multiclass_classification,ipums_census_small,47,hrswork2,feature,CATEGORICAL,"Hours worked last week, intervalled"
+multiclass_classification,ipums_census_small,48,yrlastwk,feature,CATEGORICAL,Year last worked
+multiclass_classification,ipums_census_small,49,workedyr,feature,CATEGORICAL,Worked last year
+multiclass_classification,ipums_census_small,50,inctot,feature,NUMERIC,Total personal income
+multiclass_classification,ipums_census_small,51,incwage,feature,NUMERIC,Wage and salary income
+multiclass_classification,ipums_census_small,52,incbus,feature,NUMERIC,Non-farm business income
+multiclass_classification,ipums_census_small,53,incfarm,feature,NUMERIC,Farm income
+multiclass_classification,ipums_census_small,54,incss,feature,NUMERIC,Social Security income
+multiclass_classification,ipums_census_small,55,incwelfr,feature,NUMERIC,Welfare (public assistance) income
+multiclass_classification,ipums_census_small,56,incother,feature,NUMERIC,Other income
+multiclass_classification,ipums_census_small,57,poverty,feature,NUMERIC,Poverty status
+multiclass_classification,ipums_census_small,58,migrat5g,feature,CATEGORICAL,"Migration status, 5 years"
+multiclass_classification,ipums_census_small,59,migplac5,feature,CATEGORICAL,State or country of residence 5 years ago
+multiclass_classification,ipums_census_small,60,movedin,target,CATEGORICAL,"When occupant moved into residence: {0,1,2,5,6,7,8}; 0=N/A; 1: This year or last year; 2: 2-5 years ago; 5: 6-10 years ago; 6: 11-20 years ago; 7: 21-30 years ago; 8: 31+ years ago"
+multiclass_classification,ipums_census_small,61,vetstat,feature,CATEGORICAL,Veteran status
+multiclass_classification,ipums_census_small,62,tranwork,feature,CATEGORICAL,Means of transportation to work
+multiclass_classification,iris,1,id,id,TEXT,Unique identifier for each sample in the dataset.
+multiclass_classification,iris,2,sepal_length,feature,NUMERIC,sepal length in cm
+multiclass_classification,iris,3,sepal_width,feature,NUMERIC,sepal width in cm
+multiclass_classification,iris,4,petal_length,feature,NUMERIC,petal length in cm
+multiclass_classification,iris,5,petal_width,feature,NUMERIC,petal width in cm
+multiclass_classification,iris,6,class,target,CATEGORICAL,"class: Iris-setosa, Iris-versicolour, Iris-virginica"
+multiclass_classification,landsat_satellite,1,id,id,TEXT,Unique identifier for each sample in the dataset.
+multiclass_classification,landsat_satellite,2,v_0,feature,NUMERIC,top_left_spectral_value_1
+multiclass_classification,landsat_satellite,3,v_1,feature,NUMERIC,top_left_spectral_value_2
+multiclass_classification,landsat_satellite,4,v_2,feature,NUMERIC,top_left_spectral_value_3
+multiclass_classification,landsat_satellite,5,v_3,feature,NUMERIC,top_left_spectral_value_4
+multiclass_classification,landsat_satellite,6,v_4,feature,NUMERIC,top_middle_spectral_value_1
+multiclass_classification,landsat_satellite,7,v_5,feature,NUMERIC,top_middle_spectral_value_2
+multiclass_classification,landsat_satellite,8,v_6,feature,NUMERIC,top_middle_spectral_value_3
+multiclass_classification,landsat_satellite,9,v_7,feature,NUMERIC,top_middle_spectral_value_4
+multiclass_classification,landsat_satellite,10,v_8,feature,NUMERIC,top_right_spectral_value_1
+multiclass_classification,landsat_satellite,11,v_9,feature,NUMERIC,top_right_spectral_value_2
+multiclass_classification,landsat_satellite,12,v_10,feature,NUMERIC,top_right_spectral_value_3
+multiclass_classification,landsat_satellite,13,v_11,feature,NUMERIC,top_right_spectral_value_4
+multiclass_classification,landsat_satellite,14,v_12,feature,NUMERIC,middle_left_spectral_value_1
+multiclass_classification,landsat_satellite,15,v_13,feature,NUMERIC,middle_left_spectral_value_2
+multiclass_classification,landsat_satellite,16,v_14,feature,NUMERIC,middle_left_spectral_value_3
+multiclass_classification,landsat_satellite,17,v_15,feature,NUMERIC,middle_left_spectral_value_4
+multiclass_classification,landsat_satellite,18,v_16,feature,NUMERIC,middle_middle_spectral_value_1
+multiclass_classification,landsat_satellite,19,v_17,feature,NUMERIC,middle_middle_spectral_value_2
+multiclass_classification,landsat_satellite,20,v_18,feature,NUMERIC,middle_middle_spectral_value_3
+multiclass_classification,landsat_satellite,21,v_19,feature,NUMERIC,middle_middle_spectral_value_4
+multiclass_classification,landsat_satellite,22,v_20,feature,NUMERIC,middle_right_spectral_value_1
+multiclass_classification,landsat_satellite,23,v_21,feature,NUMERIC,middle_right_spectral_value_2
+multiclass_classification,landsat_satellite,24,v_22,feature,NUMERIC,middle_right_spectral_value_3
+multiclass_classification,landsat_satellite,25,v_23,feature,NUMERIC,middle_right_spectral_value_4
+multiclass_classification,landsat_satellite,26,v_24,feature,NUMERIC,bottom_left_spectral_value_1
+multiclass_classification,landsat_satellite,27,v_25,feature,NUMERIC,bottom_left_spectral_value_2
+multiclass_classification,landsat_satellite,28,v_26,feature,NUMERIC,bottom_left_spectral_value_3
+multiclass_classification,landsat_satellite,29,v_27,feature,NUMERIC,bottom_left_spectral_value_4
+multiclass_classification,landsat_satellite,30,v_28,feature,NUMERIC,bottom_bottom_spectral_value_1
+multiclass_classification,landsat_satellite,31,v_29,feature,NUMERIC,bottom_bottom_spectral_value_2
+multiclass_classification,landsat_satellite,32,v_30,feature,NUMERIC,bottom_bottom_spectral_value_3
+multiclass_classification,landsat_satellite,33,v_31,feature,NUMERIC,bottom_bottom_spectral_value_4
+multiclass_classification,landsat_satellite,34,v_32,feature,NUMERIC,bottom_right_spectral_value_1
+multiclass_classification,landsat_satellite,35,v_33,feature,NUMERIC,bottom_right_spectral_value_2
+multiclass_classification,landsat_satellite,36,v_34,feature,NUMERIC,bottom_right_spectral_value_3
+multiclass_classification,landsat_satellite,37,v_35,feature,NUMERIC,bottom_right_spectral_value_4
+multiclass_classification,landsat_satellite,38,class,target,CATEGORICAL,Target class: 1: red soil; 2: cotton crop; 3: group soil; 4: damp grey soil; 5: soil with vegetation stubble;  7: very damp grey soil
+multiclass_classification,nursery,1,id,id,CATEGORICAL,
+multiclass_classification,nursery,2,parents,feature,CATEGORICAL,"usual, pretentious, great_pret"
+multiclass_classification,nursery,3,has_nurs,feature,CATEGORICAL,"proper, less_proper, improper, critical, very_crit"
+multiclass_classification,nursery,4,form,feature,CATEGORICAL,"complete, completed, incomplete, foster"
+multiclass_classification,nursery,5,children,feature,CATEGORICAL,"1, 2, 3, more"
+multiclass_classification,nursery,6,housing,feature,CATEGORICAL,"convenient, less_conv, critical"
+multiclass_classification,nursery,7,finance,feature,CATEGORICAL,"convenient, inconv"
+multiclass_classification,nursery,8,social,feature,CATEGORICAL,"non-prob, slightly_prob, problematic"
+multiclass_classification,nursery,9,health,feature,CATEGORICAL,"recommended, priority, not_recom"
+multiclass_classification,nursery,10,decision,target,CATEGORICAL,"Decision class: not_recom, recommend, very_recom, priority, spec_prior"
+multiclass_classification,optical_digit_recognition,1,id,id,TEXT,Unique identifier for each sample in the dataset.
+multiclass_classification,optical_digit_recognition,2,block_0,feature,NUMERIC,num of on pixels in block 0
+multiclass_classification,optical_digit_recognition,3,block_1,feature,NUMERIC,num of on pixels in block 1
+multiclass_classification,optical_digit_recognition,4,block_2,feature,NUMERIC,num of on pixels in block 2
+multiclass_classification,optical_digit_recognition,5,block_3,feature,NUMERIC,num of on pixels in block 3
+multiclass_classification,optical_digit_recognition,6,block_4,feature,NUMERIC,num of on pixels in block 4
+multiclass_classification,optical_digit_recognition,7,block_5,feature,NUMERIC,num of on pixels in block 5
+multiclass_classification,optical_digit_recognition,8,block_6,feature,NUMERIC,num of on pixels in block 6
+multiclass_classification,optical_digit_recognition,9,block_7,feature,NUMERIC,num of on pixels in block 7
+multiclass_classification,optical_digit_recognition,10,block_8,feature,NUMERIC,num of on pixels in block 8
+multiclass_classification,optical_digit_recognition,11,block_9,feature,NUMERIC,num of on pixels in block 9
+multiclass_classification,optical_digit_recognition,12,block_10,feature,NUMERIC,num of on pixels in block 10
+multiclass_classification,optical_digit_recognition,13,block_11,feature,NUMERIC,num of on pixels in block 11
+multiclass_classification,optical_digit_recognition,14,block_12,feature,NUMERIC,num of on pixels in block 12
+multiclass_classification,optical_digit_recognition,15,block_13,feature,NUMERIC,num of on pixels in block 13
+multiclass_classification,optical_digit_recognition,16,block_14,feature,NUMERIC,num of on pixels in block 14
+multiclass_classification,optical_digit_recognition,17,block_15,feature,NUMERIC,num of on pixels in block 15
+multiclass_classification,optical_digit_recognition,18,block_16,feature,NUMERIC,num of on pixels in block 16
+multiclass_classification,optical_digit_recognition,19,block_17,feature,NUMERIC,num of on pixels in block 17
+multiclass_classification,optical_digit_recognition,20,block_18,feature,NUMERIC,num of on pixels in block 18
+multiclass_classification,optical_digit_recognition,21,block_19,feature,NUMERIC,num of on pixels in block 19
+multiclass_classification,optical_digit_recognition,22,block_20,feature,NUMERIC,num of on pixels in block 20
+multiclass_classification,optical_digit_recognition,23,block_21,feature,NUMERIC,num of on pixels in block 21
+multiclass_classification,optical_digit_recognition,24,block_22,feature,NUMERIC,num of on pixels in block 22
+multiclass_classification,optical_digit_recognition,25,block_23,feature,NUMERIC,num of on pixels in block 23
+multiclass_classification,optical_digit_recognition,26,block_24,feature,NUMERIC,num of on pixels in block 24
+multiclass_classification,optical_digit_recognition,27,block_25,feature,NUMERIC,num of on pixels in block 25
+multiclass_classification,optical_digit_recognition,28,block_26,feature,NUMERIC,num of on pixels in block 26
+multiclass_classification,optical_digit_recognition,29,block_27,feature,NUMERIC,num of on pixels in block 27
+multiclass_classification,optical_digit_recognition,30,block_28,feature,NUMERIC,num of on pixels in block 28
+multiclass_classification,optical_digit_recognition,31,block_29,feature,NUMERIC,num of on pixels in block 29
+multiclass_classification,optical_digit_recognition,32,block_30,feature,NUMERIC,num of on pixels in block 30
+multiclass_classification,optical_digit_recognition,33,block_31,feature,NUMERIC,num of on pixels in block 31
+multiclass_classification,optical_digit_recognition,34,block_32,feature,NUMERIC,num of on pixels in block 32
+multiclass_classification,optical_digit_recognition,35,block_33,feature,NUMERIC,num of on pixels in block 33
+multiclass_classification,optical_digit_recognition,36,block_34,feature,NUMERIC,num of on pixels in block 34
+multiclass_classification,optical_digit_recognition,37,block_35,feature,NUMERIC,num of on pixels in block 35
+multiclass_classification,optical_digit_recognition,38,block_36,feature,NUMERIC,num of on pixels in block 36
+multiclass_classification,optical_digit_recognition,39,block_37,feature,NUMERIC,num of on pixels in block 37
+multiclass_classification,optical_digit_recognition,40,block_38,feature,NUMERIC,num of on pixels in block 38
+multiclass_classification,optical_digit_recognition,41,block_39,feature,NUMERIC,num of on pixels in block 39
+multiclass_classification,optical_digit_recognition,42,block_40,feature,NUMERIC,num of on pixels in block 40
+multiclass_classification,optical_digit_recognition,43,block_41,feature,NUMERIC,num of on pixels in block 41
+multiclass_classification,optical_digit_recognition,44,block_42,feature,NUMERIC,num of on pixels in block 42
+multiclass_classification,optical_digit_recognition,45,block_43,feature,NUMERIC,num of on pixels in block 43
+multiclass_classification,optical_digit_recognition,46,block_44,feature,NUMERIC,num of on pixels in block 44
+multiclass_classification,optical_digit_recognition,47,block_45,feature,NUMERIC,num of on pixels in block 45
+multiclass_classification,optical_digit_recognition,48,block_46,feature,NUMERIC,num of on pixels in block 46
+multiclass_classification,optical_digit_recognition,49,block_47,feature,NUMERIC,num of on pixels in block 47
+multiclass_classification,optical_digit_recognition,50,block_48,feature,NUMERIC,num of on pixels in block 48
+multiclass_classification,optical_digit_recognition,51,block_49,feature,NUMERIC,num of on pixels in block 49
+multiclass_classification,optical_digit_recognition,52,block_50,feature,NUMERIC,num of on pixels in block 50
+multiclass_classification,optical_digit_recognition,53,block_51,feature,NUMERIC,num of on pixels in block 51
+multiclass_classification,optical_digit_recognition,54,block_52,feature,NUMERIC,num of on pixels in block 52
+multiclass_classification,optical_digit_recognition,55,block_53,feature,NUMERIC,num of on pixels in block 53
+multiclass_classification,optical_digit_recognition,56,block_54,feature,NUMERIC,num of on pixels in block 54
+multiclass_classification,optical_digit_recognition,57,block_55,feature,NUMERIC,num of on pixels in block 55
+multiclass_classification,optical_digit_recognition,58,block_56,feature,NUMERIC,num of on pixels in block 56
+multiclass_classification,optical_digit_recognition,59,block_57,feature,NUMERIC,num of on pixels in block 57
+multiclass_classification,optical_digit_recognition,60,block_58,feature,NUMERIC,num of on pixels in block 58
+multiclass_classification,optical_digit_recognition,61,block_59,feature,NUMERIC,num of on pixels in block 59
+multiclass_classification,optical_digit_recognition,62,block_60,feature,NUMERIC,num of on pixels in block 60
+multiclass_classification,optical_digit_recognition,63,block_61,feature,NUMERIC,num of on pixels in block 61
+multiclass_classification,optical_digit_recognition,64,block_62,feature,NUMERIC,num of on pixels in block 62
+multiclass_classification,optical_digit_recognition,65,block_63,feature,NUMERIC,num of on pixels in block 63
+multiclass_classification,optical_digit_recognition,66,digit,target,CATEGORICAL,"Target class: handwritten digit - one of {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}"
+multiclass_classification,six_concentric_spheres,1,id,id,TEXT,feature description not available
+multiclass_classification,six_concentric_spheres,2,sphere,target,CATEGORICAL,"Target: sphere number - one of {0, 1, 2, 3, 4, 5}"
+multiclass_classification,six_concentric_spheres,3,x,feature,NUMERIC,x
+multiclass_classification,six_concentric_spheres,4,y,feature,NUMERIC,y
+multiclass_classification,six_concentric_spheres,5,z,feature,NUMERIC,z
+multiclass_classification,six_concentric_spheres,6,dummy_1,feature,NUMERIC,dummy_1
+multiclass_classification,six_concentric_spheres,7,dummy_2,feature,NUMERIC,dummy_2
+multiclass_classification,six_concentric_spheres,8,dummy_3,feature,NUMERIC,dummy_3
+multiclass_classification,six_concentric_spheres,9,dummy_4,feature,NUMERIC,dummy_4
+multiclass_classification,six_concentric_spheres,10,dummy_5,feature,NUMERIC,dummy_5
+multiclass_classification,six_concentric_spheres,11,dummy_6,feature,NUMERIC,dummy_6
+multiclass_classification,six_concentric_spheres,12,dummy_7,feature,NUMERIC,dummy_7
+multiclass_classification,six_concentric_spheres,13,dummy_8,feature,NUMERIC,dummy_8
+multiclass_classification,six_concentric_spheres,14,dummy_9,feature,NUMERIC,dummy_9
+multiclass_classification,six_concentric_spheres,15,dummy_10,feature,NUMERIC,dummy_10
+multiclass_classification,six_concentric_spheres,16,dummy_11,feature,NUMERIC,dummy_11
+multiclass_classification,six_concentric_spheres,17,dummy_12,feature,NUMERIC,dummy_12
+multiclass_classification,six_concentric_spheres,18,dummy_13,feature,NUMERIC,dummy_13
+multiclass_classification,six_concentric_spheres,19,dummy_14,feature,NUMERIC,dummy_14
+multiclass_classification,six_concentric_spheres,20,dummy_15,feature,NUMERIC,dummy_15
+multiclass_classification,six_concentric_spheres,21,dummy_16,feature,NUMERIC,dummy_16
+multiclass_classification,six_concentric_spheres,22,dummy_17,feature,NUMERIC,dummy_17
+multiclass_classification,six_concentric_spheres,23,dummy_18,feature,NUMERIC,dummy_18
+multiclass_classification,six_concentric_spheres,24,dummy_19,feature,NUMERIC,dummy_19
+multiclass_classification,six_concentric_spheres,25,dummy_20,feature,NUMERIC,dummy_20
+multiclass_classification,six_concentric_spheres,26,dummy_21,feature,NUMERIC,dummy_21
+multiclass_classification,six_concentric_spheres,27,dummy_22,feature,NUMERIC,dummy_22
+multiclass_classification,six_concentric_spheres,28,dummy_23,feature,NUMERIC,dummy_23
+multiclass_classification,six_concentric_spheres,29,dummy_24,feature,NUMERIC,dummy_24
+multiclass_classification,six_concentric_spheres,30,dummy_25,feature,NUMERIC,dummy_25
+multiclass_classification,six_concentric_spheres,31,dummy_26,feature,NUMERIC,dummy_26
+multiclass_classification,six_concentric_spheres,32,dummy_27,feature,NUMERIC,dummy_27
+multiclass_classification,six_concentric_spheres,33,dummy_28,feature,NUMERIC,dummy_28
+multiclass_classification,six_concentric_spheres,34,dummy_29,feature,NUMERIC,dummy_29
+multiclass_classification,six_concentric_spheres,35,dummy_30,feature,NUMERIC,dummy_30
+multiclass_classification,six_concentric_spheres,36,dummy_31,feature,NUMERIC,dummy_31
+multiclass_classification,six_concentric_spheres,37,dummy_32,feature,NUMERIC,dummy_32
+multiclass_classification,six_concentric_spheres,38,dummy_33,feature,NUMERIC,dummy_33
+multiclass_classification,six_concentric_spheres,39,dummy_34,feature,NUMERIC,dummy_34
+multiclass_classification,six_concentric_spheres,40,dummy_35,feature,NUMERIC,dummy_35
+multiclass_classification,six_concentric_spheres,41,dummy_36,feature,NUMERIC,dummy_36
+multiclass_classification,six_concentric_spheres,42,dummy_37,feature,NUMERIC,dummy_37
+multiclass_classification,six_concentric_spheres,43,dummy_38,feature,NUMERIC,dummy_38
+multiclass_classification,six_concentric_spheres,44,dummy_39,feature,NUMERIC,dummy_39
+multiclass_classification,six_concentric_spheres,45,dummy_40,feature,NUMERIC,dummy_40
+multiclass_classification,six_concentric_spheres,46,dummy_41,feature,NUMERIC,dummy_41
+multiclass_classification,six_concentric_spheres,47,dummy_42,feature,NUMERIC,dummy_42
+multiclass_classification,six_concentric_spheres,48,dummy_43,feature,NUMERIC,dummy_43
+multiclass_classification,six_concentric_spheres,49,dummy_44,feature,NUMERIC,dummy_44
+multiclass_classification,six_concentric_spheres,50,dummy_45,feature,NUMERIC,dummy_45
+multiclass_classification,six_concentric_spheres,51,dummy_46,feature,NUMERIC,dummy_46
+multiclass_classification,six_concentric_spheres,52,dummy_47,feature,NUMERIC,dummy_47
+multiclass_classification,six_concentric_spheres,53,dummy_48,feature,NUMERIC,dummy_48
+multiclass_classification,six_concentric_spheres,54,dummy_49,feature,NUMERIC,dummy_49
+multiclass_classification,six_concentric_spheres,55,dummy_50,feature,NUMERIC,dummy_50
+multiclass_classification,six_concentric_spheres,56,dummy_51,feature,NUMERIC,dummy_51
+multiclass_classification,six_concentric_spheres,57,dummy_52,feature,NUMERIC,dummy_52
+multiclass_classification,six_concentric_spheres,58,dummy_53,feature,NUMERIC,dummy_53
+multiclass_classification,six_concentric_spheres,59,dummy_54,feature,NUMERIC,dummy_54
+multiclass_classification,six_concentric_spheres,60,dummy_55,feature,NUMERIC,dummy_55
+multiclass_classification,six_concentric_spheres,61,dummy_56,feature,NUMERIC,dummy_56
+multiclass_classification,six_concentric_spheres,62,dummy_57,feature,NUMERIC,dummy_57
+multiclass_classification,six_concentric_spheres,63,dummy_58,feature,NUMERIC,dummy_58
+multiclass_classification,six_concentric_spheres,64,dummy_59,feature,NUMERIC,dummy_59
+multiclass_classification,six_concentric_spheres,65,dummy_60,feature,NUMERIC,dummy_60
+multiclass_classification,six_concentric_spheres,66,dummy_61,feature,NUMERIC,dummy_61
+multiclass_classification,six_concentric_spheres,67,dummy_62,feature,NUMERIC,dummy_62
+multiclass_classification,six_concentric_spheres,68,dummy_63,feature,NUMERIC,dummy_63
+multiclass_classification,six_concentric_spheres,69,dummy_64,feature,NUMERIC,dummy_64
+multiclass_classification,six_concentric_spheres,70,dummy_65,feature,NUMERIC,dummy_65
+multiclass_classification,six_concentric_spheres,71,dummy_66,feature,NUMERIC,dummy_66
+multiclass_classification,six_concentric_spheres,72,dummy_67,feature,NUMERIC,dummy_67
+multiclass_classification,six_concentric_spheres,73,corr_x,feature,NUMERIC,corr_x
+multiclass_classification,six_concentric_spheres,74,corr_y,feature,NUMERIC,corr_y
+multiclass_classification,six_concentric_spheres,75,corr_z,feature,NUMERIC,corr_z
+multiclass_classification,smoke_test_mc,1,id,id,TEXT,Unique identifier for each sample in the dataset.
+multiclass_classification,smoke_test_mc,2,color,feature,CATEGORICAL,"A categorical feature, with three possible values: Red, Green, and Blue"
+multiclass_classification,smoke_test_mc,3,number,feature,NUMERIC,Values drawn from a uniform distribution between 1 and 100 inclusive
+multiclass_classification,smoke_test_mc,4,target,target,CATEGORICAL,"Target class: one of {0, 1, 2}"
+multiclass_classification,soybean_disease,1,id,id,TEXT,Unique identifier for each sample in the dataset.
+multiclass_classification,soybean_disease,2,date,feature,CATEGORICAL,"date: april,may,june,july,august,september,october"
+multiclass_classification,soybean_disease,3,plant-stand,feature,CATEGORICAL,"plant-stand: normal,lt-normal"
+multiclass_classification,soybean_disease,4,precip,feature,CATEGORICAL,"precip: lt-norm,norm,gt-norm"
+multiclass_classification,soybean_disease,5,temp,feature,CATEGORICAL,"temp: lt-norm,norm,gt-norm"
+multiclass_classification,soybean_disease,6,hail,feature,CATEGORICAL,"hail: yes,no"
+multiclass_classification,soybean_disease,7,crop-hist,feature,CATEGORICAL,"crop-hist: diff-lst-year,same-lst-yr,same-lst-two-yrs, same-lst-sev-yrs"
+multiclass_classification,soybean_disease,8,area-damaged,feature,CATEGORICAL,"area-damaged: scattered,low-areas,upper-areas,whole-field"
+multiclass_classification,soybean_disease,9,severity,feature,CATEGORICAL,"severity: minor,pot-severe,severe"
+multiclass_classification,soybean_disease,10,seed-tmt,feature,CATEGORICAL,"seed-tmt: none,fungicide,other"
+multiclass_classification,soybean_disease,11,germination,feature,CATEGORICAL,"germination: 90-100%,80-89%,lt-80%"
+multiclass_classification,soybean_disease,12,plant-growth,feature,CATEGORICAL,"plant-growth: norm,abnorm"
+multiclass_classification,soybean_disease,13,leaves,feature,CATEGORICAL,"leaves: norm,abnorm."
+multiclass_classification,soybean_disease,14,leafspots-halo,feature,CATEGORICAL,"leafspots-halo: absent,yellow-halos,no-yellow-halos"
+multiclass_classification,soybean_disease,15,leafspots-marg,feature,CATEGORICAL,"leafspots-marg: w-s-marg,no-w-s-marg,dna"
+multiclass_classification,soybean_disease,16,leafspot-size,feature,CATEGORICAL,"leafspot-size: lt-1/8,gt-1/8,dna"
+multiclass_classification,soybean_disease,17,leaf-shred,feature,CATEGORICAL,"leaf-shread: absent,present"
+multiclass_classification,soybean_disease,18,leaf-malf,feature,CATEGORICAL,"leaf-malf: absent,present"
+multiclass_classification,soybean_disease,19,leaf-mild,feature,CATEGORICAL,"leaf-mild: absent,upper-surf,lower-surf"
+multiclass_classification,soybean_disease,20, stem,feature,CATEGORICAL,"stem: norm,abnorm"
+multiclass_classification,soybean_disease,21,lodging,feature,CATEGORICAL,"lodging: yes,no"
+multiclass_classification,soybean_disease,22,stem-cankers,feature,CATEGORICAL,"stem-cankers: absent,below-soil,above-soil,above-sec-nde"
+multiclass_classification,soybean_disease,23,canker-lesion,feature,CATEGORICAL,"canker-lesion: dna,brown,dk-brown-blk,tan"
+multiclass_classification,soybean_disease,24,fruiting-bodies,feature,CATEGORICAL,"fruiting-bodies: absent,present"
+multiclass_classification,soybean_disease,25,external decay,feature,CATEGORICAL,"external decay: absent,firm-and-dry,watery"
+multiclass_classification,soybean_disease,26,mycelium,feature,CATEGORICAL,"mycelium: absent,present"
+multiclass_classification,soybean_disease,27,int-discolor,feature,CATEGORICAL,"int-discolor: none,brown,black"
+multiclass_classification,soybean_disease,28,sclerotia,feature,CATEGORICAL,"sclerotia: absent,present"
+multiclass_classification,soybean_disease,29,fruit-pods,feature,CATEGORICAL,"fruit-pods: norm,diseased,few-present,dna"
+multiclass_classification,soybean_disease,30,fruit-spots,feature,CATEGORICAL,"fruit spots: absent,colored,brown-w/blk-specks,distort,dna"
+multiclass_classification,soybean_disease,31,seed,feature,CATEGORICAL,"seed: norm,abnorm"
+multiclass_classification,soybean_disease,32,mold-growth,feature,CATEGORICAL,"mold-growth: absent,present"
+multiclass_classification,soybean_disease,33,seed-discolor,feature,CATEGORICAL,"seed-discolor: absent,present"
+multiclass_classification,soybean_disease,34,seed-size,feature,CATEGORICAL,"seed-size: norm,lt-norm"
+multiclass_classification,soybean_disease,35,shriveling,feature,CATEGORICAL,"shriveling: absent,present"
+multiclass_classification,soybean_disease,36,roots,feature,CATEGORICAL,"roots: norm,rotted,galls-cysts"
+multiclass_classification,soybean_disease,37,disease,target,CATEGORICAL,Target class of disease
+multiclass_classification,steel_plate_faults,1,Id,id,TEXT,Unique identifier for each sample in the dataset.
+multiclass_classification,steel_plate_faults,2,X_Minimum,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,3,X_Maximum,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,4,Y_Minimum,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,5,Y_Maximum,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,6,Pixels_Areas,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,7,X_Perimeter,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,8,Y_Perimeter,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,9,Sum_of_Luminosity,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,10,Minimum_of_Luminosity,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,11,Maximum_of_Luminosity,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,12,Length_of_Conveyer,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,13,TypeOfSteel,feature,CATEGORICAL,Feature description not available
+multiclass_classification,steel_plate_faults,14,Steel_Plate_Thickness,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,15,Edges_Index,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,16,Empty_Index,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,17,Square_Index,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,18,Outside_X_Index,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,19,Edges_X_Index,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,20,Edges_Y_Index,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,21,Outside_Global_Index,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,22,LogOfAreas,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,23,Log_X_Index,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,24,Log_Y_Index,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,25,Orientation_Index,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,26,Luminosity_Index,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,27,SigmoidOfAreas,feature,NUMERIC,Feature description not available
+multiclass_classification,steel_plate_faults,28,Fault_type,target,CATEGORICAL,"Fault type: one of {Pastry, Z_Scratch, K_Scatch, Stains, Dirtiness, Bumps, Other_Faults}"
+multiclass_classification,student_dropout,29,Id,id,TEXT,Unique identifier for each sample in the dataset.
+multiclass_classification,student_dropout,30,Marital status,feature,CATEGORICAL,Marital status
+multiclass_classification,student_dropout,31,Application mode,feature,CATEGORICAL,Application mode
+multiclass_classification,student_dropout,32,Application order,feature,NUMERIC,Application order (between 0 - first choice; and 9 last choice
+multiclass_classification,student_dropout,33,Course,feature,CATEGORICAL,Course
+multiclass_classification,student_dropout,34,"Daytime/evening attendance	",feature,CATEGORICAL,"1 - daytime; 0 - evening	"
+multiclass_classification,student_dropout,35,Previous qualification,feature,CATEGORICAL,Previous qualification
+multiclass_classification,student_dropout,36,Previous qualification (grade),feature,NUMERIC,Previous qualification (grade)
+multiclass_classification,student_dropout,37,Nacionality,feature,CATEGORICAL,Nacionality
+multiclass_classification,student_dropout,38,Mother's qualification,feature,CATEGORICAL,Mother's qualification
+multiclass_classification,student_dropout,39,Father's qualification,feature,CATEGORICAL,Father's qualification
+multiclass_classification,student_dropout,40,Mother's occupation,feature,CATEGORICAL,Mother's occupation
+multiclass_classification,student_dropout,41,Father's occupation,feature,CATEGORICAL,Father's occupation
+multiclass_classification,student_dropout,42,Admission grade,feature,NUMERIC,Admission grade
+multiclass_classification,student_dropout,43,Displaced,feature,CATEGORICAL,1 - yes; 0 - no
+multiclass_classification,student_dropout,44,Educational special needs,feature,CATEGORICAL,1 - yes; 0 - no
+multiclass_classification,student_dropout,45,Debtor,feature,CATEGORICAL,1 - yes; 0 - no
+multiclass_classification,student_dropout,46,Tuition fees up to date,feature,CATEGORICAL,1 - yes; 0 - no
+multiclass_classification,student_dropout,47,Gender,feature,CATEGORICAL,1 - male;  0 - female
+multiclass_classification,student_dropout,48,Scholarship holder,feature,CATEGORICAL,1 - yes; 0 - no
+multiclass_classification,student_dropout,49,Age at enrollment,feature,NUMERIC,Age of student at enrollment
+multiclass_classification,student_dropout,50,International,feature,CATEGORICAL,1 - yes; 0 - no
+multiclass_classification,student_dropout,51,Curricular units 1st sem (credited),feature,NUMERIC,Number of curricular units credited in the 1st semester
+multiclass_classification,student_dropout,52,Curricular units 1st sem (enrolled),feature,NUMERIC,Number of curricular units enrolled in the 1st semester
+multiclass_classification,student_dropout,53,Curricular units 1st sem (evaluations),feature,NUMERIC,Number of evaluations to curricular units in the 1st semester
+multiclass_classification,student_dropout,54,Curricular units 1st sem (approved),feature,NUMERIC,Number of curricular units approved in the 1st semester
+multiclass_classification,student_dropout,55,Curricular units 1st sem (grade),feature,NUMERIC,Grade average in the 1st semester (between 0 and 20)
+multiclass_classification,student_dropout,56,Curricular units 1st sem (without evaluations),feature,NUMERIC,Number of curricular units without evalutions in the 1st semester
+multiclass_classification,student_dropout,57,Curricular units 2nd sem (credited),feature,NUMERIC,Number of curricular units credited in the 2nd semester
+multiclass_classification,student_dropout,58,Curricular units 2nd sem (enrolled),feature,NUMERIC,Number of curricular units enrolled in the 2nd semester
+multiclass_classification,student_dropout,59,Curricular units 2nd sem (evaluations),feature,NUMERIC,Number of evaluations to curricular units in the 2nd semester
+multiclass_classification,student_dropout,60,Curricular units 2nd sem (approved),feature,NUMERIC,Number of curricular units approved in the 2nd semester
+multiclass_classification,student_dropout,61,Curricular units 2nd sem (grade),feature,NUMERIC,Grade average in the 2nd semester (between 0 and 20)
+multiclass_classification,student_dropout,62,Curricular units 2nd sem (without evaluations),feature,NUMERIC,Number of curricular units without evalutions in the 1st semester
+multiclass_classification,student_dropout,63,Unemployment rate,feature,NUMERIC,Unemployment rate (%)
+multiclass_classification,student_dropout,64,Inflation rate,feature,NUMERIC,Inflation rate (%)
+multiclass_classification,student_dropout,65,GDP,feature,NUMERIC,GDP
+multiclass_classification,student_dropout,66,Target,target,CATEGORICAL,"Target class (dropout, enrolled, and graduate) at the end of the normal duration of the course"
+multiclass_classification,torus_chain,1,id,id,TEXT,Unique identifier for each sample in the dataset.
+multiclass_classification,torus_chain,2,x,feature,NUMERIC,x coordinate (-6.0 to +32.0)
+multiclass_classification,torus_chain,3,y,feature,NUMERIC,y coordinate (-6.0 to +6.0)
+multiclass_classification,torus_chain,4,z,feature,NUMERIC,z coordinate (-6.0 to +6.0)
+multiclass_classification,torus_chain,5,target,target,CATEGORICAL,target coordinate
+multiclass_classification,vehicle_silhouettes,1,ID,id,TEXT,Unique identifier for each sample in the dataset.
+multiclass_classification,vehicle_silhouettes,2,COMPACTNESS,feature,NUMERIC,(average perim)**2/area
+multiclass_classification,vehicle_silhouettes,3,CIRCULARITY,feature,NUMERIC,(average radius)**2/area
+multiclass_classification,vehicle_silhouettes,4,DISTANCE CIRCULARITY,feature,NUMERIC,area/(av.distance from border)**2
+multiclass_classification,vehicle_silhouettes,5,RADIUS RATIO,feature,NUMERIC,(max.rad-min.rad)/av.radius
+multiclass_classification,vehicle_silhouettes,6,PR.AXIS ASPECT RATIO,feature,NUMERIC,(minor axis)/(major axis)
+multiclass_classification,vehicle_silhouettes,7,MAX.LENGTH ASPECT RATIO,feature,NUMERIC,(length perp. max length)/(max length)
+multiclass_classification,vehicle_silhouettes,8,SCATTER RATIO,feature,NUMERIC,(inertia about minor axis)/(inertia about major axis)
+multiclass_classification,vehicle_silhouettes,9,ELONGATEDNESS,feature,NUMERIC,area/(shrink width)**2
+multiclass_classification,vehicle_silhouettes,10,PR.AXIS RECTANGULARITY,feature,NUMERIC,area/(pr.axis length*pr.axis width)
+multiclass_classification,vehicle_silhouettes,11,MAX.LENGTH RECTANGULARITY,feature,NUMERIC,area/(max.length*length perp. to this)
+multiclass_classification,vehicle_silhouettes,12,SCALED VARIANCE ALONG MAJOR AXIS,feature,NUMERIC,(2nd order moment about minor axis)/area
+multiclass_classification,vehicle_silhouettes,13,SCALED VARIANCE ALONG MINOR AXIS,feature,NUMERIC,(2nd order moment about major axis)/area
+multiclass_classification,vehicle_silhouettes,14,SCALED RADIUS OF GYRATION,feature,NUMERIC,(mavar+mivar)/area
+multiclass_classification,vehicle_silhouettes,15,SKEWNESS ABOUT MAJOR AXIS,feature,NUMERIC,(3rd order moment about major axis)/sigma_min**3  where sigma_min**2 is the variance along the minor axis
+multiclass_classification,vehicle_silhouettes,16,SKEWNESS ABOUT MINOR AXIS,feature,NUMERIC,(3rd order moment about minor axis)/sigma_maj**3  where sigma_maj**2 is the variance along the major axis
+multiclass_classification,vehicle_silhouettes,17,KURTOSIS ABOUT MAJOR AXIS,feature,NUMERIC,(4th order moment about major axis)/sigma_min**4  where sigma_min**2 is the variance along the minor axis
+multiclass_classification,vehicle_silhouettes,18,KURTOSIS ABOUT MINOR AXIS,feature,NUMERIC,(4th order moment about minor axis)/sigma_maj**4 where sigma_maj**2 is the variance along the major axis
+multiclass_classification,vehicle_silhouettes,19,HOLLOWS RATIO,feature,NUMERIC,(area of hollows)/(area of bounding polygon)
+multiclass_classification,vehicle_silhouettes,20,CLASS,target,CATEGORICAL,"Target vehicle class: one of {OPEL, SAAB, BUS, VAN}"

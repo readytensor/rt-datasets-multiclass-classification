@@ -1,0 +1,789 @@
+{
+  "title": "Splice-junction Gene Sequences",
+  "summary": "The problem posed in this dataset is to recognize, given a sequence of DNA, the boundaries between exons (the parts of the DNA sequence retained after splicing) and introns (the parts of the DNA sequence that are spliced out).",
+  "modelCategory": "multiclass_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "id": {
+    "name": "Instance",
+    "description": "The instance name."
+  },
+  "target": {
+    "name": "Class",
+    "description": "Target class: one of {n ei ie}. 'EI' is exon/intron boundary; 'IE' is intro/exon boundary; and 'N' is neither",
+    "classes": [
+      "EI",
+      "IE",
+      "N"
+    ]
+  },
+  "features": [
+    {
+      "name": "Position_-30",
+      "description": "base type in position -30 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "D",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-29",
+      "description": "base type in position -29 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "D",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-28",
+      "description": "base type in position -28 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-27",
+      "description": "base type in position -27 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-26",
+      "description": "base type in position -26 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-25",
+      "description": "base type in position -25 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-24",
+      "description": "base type in position -24 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-23",
+      "description": "base type in position -23 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-22",
+      "description": "base type in position -22 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-21",
+      "description": "base type in position -21 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-20",
+      "description": "base type in position -20 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-19",
+      "description": "base type in position -19 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-18",
+      "description": "base type in position -18 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-17",
+      "description": "base type in position -17 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-16",
+      "description": "base type in position -16 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-15",
+      "description": "base type in position -15 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-14",
+      "description": "base type in position -14 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-13",
+      "description": "base type in position -13 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-12",
+      "description": "base type in position -12 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-11",
+      "description": "base type in position -11 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-10",
+      "description": "base type in position -10 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-9",
+      "description": "base type in position -9 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-8",
+      "description": "base type in position -8 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-7",
+      "description": "base type in position -7 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-6",
+      "description": "base type in position -6 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-5",
+      "description": "base type in position -5 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-4",
+      "description": "base type in position -4 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-3",
+      "description": "base type in position -3 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-2",
+      "description": "base type in position -2 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_-1",
+      "description": "base type in position -1 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+1",
+      "description": "base type in position +1 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+2",
+      "description": "base type in position +2 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+3",
+      "description": "base type in position +3 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+4",
+      "description": "base type in position +4 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+5",
+      "description": "base type in position +5 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "R",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+6",
+      "description": "base type in position +6 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "S",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+7",
+      "description": "base type in position +7 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+8",
+      "description": "base type in position +8 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+9",
+      "description": "base type in position +9 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+10",
+      "description": "base type in position +10 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+11",
+      "description": "base type in position +11 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+12",
+      "description": "base type in position +12 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+13",
+      "description": "base type in position +13 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+14",
+      "description": "base type in position +14 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+15",
+      "description": "base type in position +15 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+16",
+      "description": "base type in position +16 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+17",
+      "description": "base type in position +17 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+18",
+      "description": "base type in position +18 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+19",
+      "description": "base type in position +19 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+20",
+      "description": "base type in position +20 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+21",
+      "description": "base type in position +21 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+22",
+      "description": "base type in position +22 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+23",
+      "description": "base type in position +23 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+24",
+      "description": "base type in position +24 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+25",
+      "description": "base type in position +25 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+26",
+      "description": "base type in position +26 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+27",
+      "description": "base type in position +27 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+28",
+      "description": "base type in position +28 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+29",
+      "description": "base type in position +29 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Position_+30",
+      "description": "base type in position +30 in sequence",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A",
+        "C",
+        "G",
+        "N",
+        "T"
+      ],
+      "nullable": false
+    }
+  ]
+}

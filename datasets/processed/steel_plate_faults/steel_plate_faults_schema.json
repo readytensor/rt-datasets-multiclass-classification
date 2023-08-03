@@ -1,0 +1,211 @@
+{
+  "title": "Steel Plates Faults",
+  "summary": "A dataset of steel plates faults, classified into 7 different types. The input features are 27 indicators that approximately describe the geometric shape of the defect and its outline.",
+  "modelCategory": "multiclass_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "id": {
+    "name": "Id",
+    "description": "Unique identifier for each sample in the dataset."
+  },
+  "target": {
+    "name": "Fault_Type",
+    "description": "Fault type: one of {Pastry, Z_Scratch, K_Scatch, Stains, Dirtiness, Bumps, Other_Faults}",
+    "classes": [
+      "Bumps",
+      "Dirtiness",
+      "K_Scatch",
+      "Other_Faults",
+      "Pastry",
+      "Stains",
+      "Z_Scratch"
+    ]
+  },
+  "features": [
+    {
+      "name": "X_Minimum",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 42,
+      "nullable": false
+    },
+    {
+      "name": "X_Maximum",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 50,
+      "nullable": false
+    },
+    {
+      "name": "Y_Minimum",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 270900,
+      "nullable": false
+    },
+    {
+      "name": "Y_Maximum",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 270944,
+      "nullable": false
+    },
+    {
+      "name": "Pixels_Areas",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 267,
+      "nullable": false
+    },
+    {
+      "name": "X_Perimeter",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 17,
+      "nullable": false
+    },
+    {
+      "name": "Y_Perimeter",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 44,
+      "nullable": false
+    },
+    {
+      "name": "Sum_of_Luminosity",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 24220,
+      "nullable": false
+    },
+    {
+      "name": "Minimum_of_Luminosity",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 76,
+      "nullable": false
+    },
+    {
+      "name": "Maximum_of_Luminosity",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 108,
+      "nullable": false
+    },
+    {
+      "name": "Length_of_Conveyer",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 1687,
+      "nullable": false
+    },
+    {
+      "name": "TypeOfSteel",
+      "description": "Feature description not available",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "A300",
+        "A400"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Steel_Plate_Thickness",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 80,
+      "nullable": false
+    },
+    {
+      "name": "Edges_Index",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 0.0498,
+      "nullable": false
+    },
+    {
+      "name": "Empty_Index",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 0.2415,
+      "nullable": false
+    },
+    {
+      "name": "Square_Index",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 0.1818,
+      "nullable": false
+    },
+    {
+      "name": "Outside_X_Index",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 0.0047,
+      "nullable": false
+    },
+    {
+      "name": "Edges_X_Index",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 0.4706,
+      "nullable": false
+    },
+    {
+      "name": "Edges_Y_Index",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "Outside_Global_Index",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "LogOfAreas",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 2.4265,
+      "nullable": false
+    },
+    {
+      "name": "Log_X_Index",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 0.9031,
+      "nullable": false
+    },
+    {
+      "name": "Log_Y_Index",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 1.6435,
+      "nullable": false
+    },
+    {
+      "name": "Orientation_Index",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 0.8182,
+      "nullable": false
+    },
+    {
+      "name": "Luminosity_Index",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": -0.2913,
+      "nullable": false
+    },
+    {
+      "name": "SigmoidOfAreas",
+      "description": "Feature description not available",
+      "dataType": "NUMERIC",
+      "example": 0.5822,
+      "nullable": false
+    }
+  ]
+}

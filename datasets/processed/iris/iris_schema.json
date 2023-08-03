@@ -1,0 +1,50 @@
+{
+  "title": "Iris",
+  "summary": "A small classic dataset from Fisher, 1936. One of the earliest datasets used for evaluation of classification methodologies. The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant.",
+  "modelCategory": "multiclass_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "id": {
+    "name": "id",
+    "description": "Unique identifier for each sample in the dataset."
+  },
+  "target": {
+    "name": "class",
+    "description": "class: Iris-setosa, Iris-versicolour, Iris-virginica",
+    "classes": [
+      "Iris-setosa",
+      "Iris-versicolor",
+      "Iris-virginica"
+    ]
+  },
+  "features": [
+    {
+      "name": "sepal_length",
+      "description": "sepal length in cm",
+      "dataType": "NUMERIC",
+      "example": 5.1,
+      "nullable": false
+    },
+    {
+      "name": "sepal_width",
+      "description": "sepal width in cm",
+      "dataType": "NUMERIC",
+      "example": 3.5,
+      "nullable": false
+    },
+    {
+      "name": "petal_length",
+      "description": "petal length in cm",
+      "dataType": "NUMERIC",
+      "example": 1.4,
+      "nullable": false
+    },
+    {
+      "name": "petal_width",
+      "description": "petal width in cm",
+      "dataType": "NUMERIC",
+      "example": 0.2,
+      "nullable": false
+    }
+  ]
+}

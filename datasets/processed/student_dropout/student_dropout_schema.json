@@ -1,0 +1,527 @@
+{
+  "title": "Student Dropout Prediction",
+  "summary": "This is a dataset related to students enrolled in different undergraduate degrees. The data is used to build classification models to predict students' dropout and academic sucess. The problem is formulated as a three category classification task, in which there is a strong imbalance towards one of the classes.\n",
+  "modelCategory": "multiclass_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "id": {
+    "name": "Id",
+    "description": "Unique identifier for each sample in the dataset."
+  },
+  "target": {
+    "name": "Target",
+    "description": "Target class (dropout, enrolled, and graduate) at the end of the normal duration of the course",
+    "classes": [
+      "Dropout",
+      "Enrolled",
+      "Graduate"
+    ]
+  },
+  "features": [
+    {
+      "name": "Marital status",
+      "description": "Marital status",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Application mode",
+      "description": "Application mode",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        1,
+        10,
+        15,
+        16,
+        17,
+        18,
+        2,
+        26,
+        27,
+        39,
+        42,
+        43,
+        44,
+        5,
+        51,
+        53,
+        57,
+        7
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Application order",
+      "description": "Application order (between 0 - first choice; and 9 last choice",
+      "dataType": "NUMERIC",
+      "example": 5,
+      "nullable": false
+    },
+    {
+      "name": "Course",
+      "description": "Course",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        171,
+        33,
+        8014,
+        9003,
+        9070,
+        9085,
+        9119,
+        9130,
+        9147,
+        9238,
+        9254,
+        9500,
+        9556,
+        9670,
+        9773,
+        9853,
+        9991
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Daytime/evening attendance\t",
+      "description": "1 - daytime; 0 - evening\t",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Previous qualification",
+      "description": "Previous qualification",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        1,
+        10,
+        12,
+        14,
+        15,
+        19,
+        2,
+        3,
+        38,
+        39,
+        4,
+        40,
+        42,
+        43,
+        5,
+        6,
+        9
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Previous qualification (grade)",
+      "description": "Previous qualification (grade)",
+      "dataType": "NUMERIC",
+      "example": 122.0,
+      "nullable": false
+    },
+    {
+      "name": "Nacionality",
+      "description": "Nacionality",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        1,
+        100,
+        101,
+        103,
+        105,
+        108,
+        109,
+        11,
+        13,
+        14,
+        17,
+        2,
+        21,
+        22,
+        24,
+        25,
+        26,
+        32,
+        41,
+        6,
+        62
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Mother's qualification",
+      "description": "Mother's qualification",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        1,
+        10,
+        11,
+        12,
+        14,
+        18,
+        19,
+        2,
+        22,
+        26,
+        27,
+        29,
+        3,
+        30,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        4,
+        40,
+        41,
+        42,
+        43,
+        44,
+        5,
+        6,
+        9
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Father's qualification",
+      "description": "Father's qualification",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        18,
+        19,
+        2,
+        20,
+        22,
+        25,
+        26,
+        27,
+        29,
+        3,
+        30,
+        31,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        4,
+        40,
+        41,
+        42,
+        43,
+        44,
+        5,
+        6,
+        9
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Mother's occupation",
+      "description": "Mother's occupation",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1,
+        10,
+        122,
+        123,
+        125,
+        131,
+        132,
+        134,
+        141,
+        143,
+        144,
+        151,
+        152,
+        153,
+        171,
+        173,
+        175,
+        191,
+        192,
+        193,
+        194,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        90,
+        99
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Father's occupation",
+      "description": "Father's occupation",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1,
+        10,
+        101,
+        102,
+        103,
+        112,
+        114,
+        121,
+        122,
+        123,
+        124,
+        131,
+        132,
+        134,
+        135,
+        141,
+        143,
+        144,
+        151,
+        152,
+        153,
+        154,
+        161,
+        163,
+        171,
+        172,
+        174,
+        175,
+        181,
+        182,
+        183,
+        192,
+        193,
+        194,
+        195,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        90,
+        99
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Admission grade",
+      "description": "Admission grade",
+      "dataType": "NUMERIC",
+      "example": 127.3,
+      "nullable": false
+    },
+    {
+      "name": "Displaced",
+      "description": "1 - yes; 0 - no",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Educational special needs",
+      "description": "1 - yes; 0 - no",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Debtor",
+      "description": "1 - yes; 0 - no",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Tuition fees up to date",
+      "description": "1 - yes; 0 - no",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Gender",
+      "description": "1 - male;  0 - female",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Scholarship holder",
+      "description": "1 - yes; 0 - no",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Age at enrollment",
+      "description": "Age of student at enrollment",
+      "dataType": "NUMERIC",
+      "example": 20,
+      "nullable": false
+    },
+    {
+      "name": "International",
+      "description": "1 - yes; 0 - no",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Curricular units 1st sem (credited)",
+      "description": "Number of curricular units credited in the 1st semester",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "Curricular units 1st sem (enrolled)",
+      "description": "Number of curricular units enrolled in the 1st semester",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "Curricular units 1st sem (evaluations)",
+      "description": "Number of evaluations to curricular units in the 1st semester",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "Curricular units 1st sem (approved)",
+      "description": "Number of curricular units approved in the 1st semester",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "Curricular units 1st sem (grade)",
+      "description": "Grade average in the 1st semester (between 0 and 20)",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "Curricular units 1st sem (without evaluations)",
+      "description": "Number of curricular units without evalutions in the 1st semester",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "Curricular units 2nd sem (credited)",
+      "description": "Number of curricular units credited in the 2nd semester",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "Curricular units 2nd sem (enrolled)",
+      "description": "Number of curricular units enrolled in the 2nd semester",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "Curricular units 2nd sem (evaluations)",
+      "description": "Number of evaluations to curricular units in the 2nd semester",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "Curricular units 2nd sem (approved)",
+      "description": "Number of curricular units approved in the 2nd semester",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "Curricular units 2nd sem (grade)",
+      "description": "Grade average in the 2nd semester (between 0 and 20)",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "Curricular units 2nd sem (without evaluations)",
+      "description": "Number of curricular units without evalutions in the 1st semester",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "Unemployment rate",
+      "description": "Unemployment rate (%)",
+      "dataType": "NUMERIC",
+      "example": 10.8,
+      "nullable": false
+    },
+    {
+      "name": "Inflation rate",
+      "description": "Inflation rate (%)",
+      "dataType": "NUMERIC",
+      "example": 1.4,
+      "nullable": false
+    },
+    {
+      "name": "GDP",
+      "description": "GDP",
+      "dataType": "NUMERIC",
+      "example": 1.74,
+      "nullable": false
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "title": "Statlog (Landsat Satellite)",
+  "summary": "The database consists of the multi-spectral values of pixels in 3x3 neighbourhoods in a satellite image, and the classification associated with the central pixel in each neighbourhood. The aim is to predict this classification, given the multi-spectral values. In the sample database, the class of a pixel is coded as a number.",
+  "modelCategory": "multiclass_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "id": {
+    "name": "id",
+    "description": "Unique identifier for each sample in the dataset."
+  },
+  "target": {
+    "name": "class",
+    "description": "Target class: 1: red soil; 2: cotton crop; 3: group soil; 4: damp grey soil; 5: soil with vegetation stubble;  7: very damp grey soil",
+    "classes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ]
+  },
+  "features": [
+    {
+      "name": "v_0",
+      "description": "top_left_spectral_value_1",
+      "dataType": "NUMERIC",
+      "example": 92,
+      "nullable": false
+    },
+    {
+      "name": "v_1",
+      "description": "top_left_spectral_value_2",
+      "dataType": "NUMERIC",
+      "example": 115,
+      "nullable": false
+    },
+    {
+      "name": "v_2",
+      "description": "top_left_spectral_value_3",
+      "dataType": "NUMERIC",
+      "example": 120,
+      "nullable": false
+    },
+    {
+      "name": "v_3",
+      "description": "top_left_spectral_value_4",
+      "dataType": "NUMERIC",
+      "example": 94,
+      "nullable": false
+    },
+    {
+      "name": "v_4",
+      "description": "top_middle_spectral_value_1",
+      "dataType": "NUMERIC",
+      "example": 84,
+      "nullable": false
+    },
+    {
+      "name": "v_5",
+      "description": "top_middle_spectral_value_2",
+      "dataType": "NUMERIC",
+      "example": 102,
+      "nullable": false
+    },
+    {
+      "name": "v_6",
+      "description": "top_middle_spectral_value_3",
+      "dataType": "NUMERIC",
+      "example": 106,
+      "nullable": false
+    },
+    {
+      "name": "v_7",
+      "description": "top_middle_spectral_value_4",
+      "dataType": "NUMERIC",
+      "example": 79,
+      "nullable": false
+    },
+    {
+      "name": "v_8",
+      "description": "top_right_spectral_value_1",
+      "dataType": "NUMERIC",
+      "example": 84,
+      "nullable": false
+    },
+    {
+      "name": "v_9",
+      "description": "top_right_spectral_value_2",
+      "dataType": "NUMERIC",
+      "example": 102,
+      "nullable": false
+    },
+    {
+      "name": "v_10",
+      "description": "top_right_spectral_value_3",
+      "dataType": "NUMERIC",
+      "example": 102,
+      "nullable": false
+    },
+    {
+      "name": "v_11",
+      "description": "top_right_spectral_value_4",
+      "dataType": "NUMERIC",
+      "example": 83,
+      "nullable": false
+    },
+    {
+      "name": "v_12",
+      "description": "middle_left_spectral_value_1",
+      "dataType": "NUMERIC",
+      "example": 101,
+      "nullable": false
+    },
+    {
+      "name": "v_13",
+      "description": "middle_left_spectral_value_2",
+      "dataType": "NUMERIC",
+      "example": 126,
+      "nullable": false
+    },
+    {
+      "name": "v_14",
+      "description": "middle_left_spectral_value_3",
+      "dataType": "NUMERIC",
+      "example": 133,
+      "nullable": false
+    },
+    {
+      "name": "v_15",
+      "description": "middle_left_spectral_value_4",
+      "dataType": "NUMERIC",
+      "example": 103,
+      "nullable": false
+    },
+    {
+      "name": "v_16",
+      "description": "middle_middle_spectral_value_1",
+      "dataType": "NUMERIC",
+      "example": 92,
+      "nullable": false
+    },
+    {
+      "name": "v_17",
+      "description": "middle_middle_spectral_value_2",
+      "dataType": "NUMERIC",
+      "example": 112,
+      "nullable": false
+    },
+    {
+      "name": "v_18",
+      "description": "middle_middle_spectral_value_3",
+      "dataType": "NUMERIC",
+      "example": 118,
+      "nullable": false
+    },
+    {
+      "name": "v_19",
+      "description": "middle_middle_spectral_value_4",
+      "dataType": "NUMERIC",
+      "example": 85,
+      "nullable": false
+    },
+    {
+      "name": "v_20",
+      "description": "middle_right_spectral_value_1",
+      "dataType": "NUMERIC",
+      "example": 84,
+      "nullable": false
+    },
+    {
+      "name": "v_21",
+      "description": "middle_right_spectral_value_2",
+      "dataType": "NUMERIC",
+      "example": 103,
+      "nullable": false
+    },
+    {
+      "name": "v_22",
+      "description": "middle_right_spectral_value_3",
+      "dataType": "NUMERIC",
+      "example": 104,
+      "nullable": false
+    },
+    {
+      "name": "v_23",
+      "description": "middle_right_spectral_value_4",
+      "dataType": "NUMERIC",
+      "example": 81,
+      "nullable": false
+    },
+    {
+      "name": "v_24",
+      "description": "bottom_left_spectral_value_1",
+      "dataType": "NUMERIC",
+      "example": 102,
+      "nullable": false
+    },
+    {
+      "name": "v_25",
+      "description": "bottom_left_spectral_value_2",
+      "dataType": "NUMERIC",
+      "example": 126,
+      "nullable": false
+    },
+    {
+      "name": "v_26",
+      "description": "bottom_left_spectral_value_3",
+      "dataType": "NUMERIC",
+      "example": 134,
+      "nullable": false
+    },
+    {
+      "name": "v_27",
+      "description": "bottom_left_spectral_value_4",
+      "dataType": "NUMERIC",
+      "example": 104,
+      "nullable": false
+    },
+    {
+      "name": "v_28",
+      "description": "bottom_bottom_spectral_value_1",
+      "dataType": "NUMERIC",
+      "example": 88,
+      "nullable": false
+    },
+    {
+      "name": "v_29",
+      "description": "bottom_bottom_spectral_value_2",
+      "dataType": "NUMERIC",
+      "example": 121,
+      "nullable": false
+    },
+    {
+      "name": "v_30",
+      "description": "bottom_bottom_spectral_value_3",
+      "dataType": "NUMERIC",
+      "example": 128,
+      "nullable": false
+    },
+    {
+      "name": "v_31",
+      "description": "bottom_bottom_spectral_value_4",
+      "dataType": "NUMERIC",
+      "example": 100,
+      "nullable": false
+    },
+    {
+      "name": "v_32",
+      "description": "bottom_right_spectral_value_1",
+      "dataType": "NUMERIC",
+      "example": 84,
+      "nullable": false
+    },
+    {
+      "name": "v_33",
+      "description": "bottom_right_spectral_value_2",
+      "dataType": "NUMERIC",
+      "example": 107,
+      "nullable": false
+    },
+    {
+      "name": "v_34",
+      "description": "bottom_right_spectral_value_3",
+      "dataType": "NUMERIC",
+      "example": 113,
+      "nullable": false
+    },
+    {
+      "name": "v_35",
+      "description": "bottom_right_spectral_value_4",
+      "dataType": "NUMERIC",
+      "example": 87,
+      "nullable": false
+    }
+  ]
+}

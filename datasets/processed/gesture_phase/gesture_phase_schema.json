@@ -1,0 +1,248 @@
+{
+  "title": "Gesture Phase Segmentation",
+  "summary": "The dataset is composed by features extracted from 7 videos with people gesticulating, aiming at studying Gesture Phase Segmentation. It contains 50 attributes divided into two files for each video.",
+  "modelCategory": "multiclass_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "id": {
+    "name": "Id",
+    "description": "Unique identifier for each sample in the dataset."
+  },
+  "target": {
+    "name": "Phase",
+    "description": "Phase segment: D (rest position, from portuguese 'descanso'); P (preparation); S (stroke); H (hold); R (retraction)",
+    "classes": [
+      "D",
+      "H",
+      "P",
+      "R",
+      "S"
+    ]
+  },
+  "features": [
+    {
+      "name": "X1",
+      "description": "Vectorial velocity of left hand (x coordinate)",
+      "dataType": "NUMERIC",
+      "example": -0.00500942,
+      "nullable": false
+    },
+    {
+      "name": "X2",
+      "description": "Vectorial velocity of left hand (y coordinate)",
+      "dataType": "NUMERIC",
+      "example": -0.00096371,
+      "nullable": false
+    },
+    {
+      "name": "X3",
+      "description": "Vectorial velocity of left hand (z coordinate)",
+      "dataType": "NUMERIC",
+      "example": 0.00057277,
+      "nullable": false
+    },
+    {
+      "name": "X4",
+      "description": "Vectorial velocity of right hand (x coordinate)",
+      "dataType": "NUMERIC",
+      "example": 0.00862299,
+      "nullable": false
+    },
+    {
+      "name": "X5",
+      "description": "Vectorial velocity of right hand (y coordinate)",
+      "dataType": "NUMERIC",
+      "example": 0.00566678,
+      "nullable": false
+    },
+    {
+      "name": "X6",
+      "description": "Vectorial velocity of right hand (z coordinate)",
+      "dataType": "NUMERIC",
+      "example": 0.00130194,
+      "nullable": false
+    },
+    {
+      "name": "X7",
+      "description": "Vectorial velocity of left wrist (x coordinate)",
+      "dataType": "NUMERIC",
+      "example": -0.00063136,
+      "nullable": false
+    },
+    {
+      "name": "X8",
+      "description": "Vectorial velocity of left wrist (y coordinate)",
+      "dataType": "NUMERIC",
+      "example": 0.0001299,
+      "nullable": false
+    },
+    {
+      "name": "X9",
+      "description": "Vectorial velocity of left wrist (z coordinate)",
+      "dataType": "NUMERIC",
+      "example": -4.828e-05,
+      "nullable": false
+    },
+    {
+      "name": "X10",
+      "description": "Vectorial velocity of right wrist (x coordinate)",
+      "dataType": "NUMERIC",
+      "example": 0.00776178,
+      "nullable": false
+    },
+    {
+      "name": "X11",
+      "description": "Vectorial velocity of right wrist (y coordinate)",
+      "dataType": "NUMERIC",
+      "example": -0.00122644,
+      "nullable": false
+    },
+    {
+      "name": "X12",
+      "description": "Vectorial velocity of right wrist (z coordinate)",
+      "dataType": "NUMERIC",
+      "example": 0.00044992,
+      "nullable": false
+    },
+    {
+      "name": "X13",
+      "description": "Vectorial acceleration of left hand (x coordinate)",
+      "dataType": "NUMERIC",
+      "example": -0.00451854,
+      "nullable": false
+    },
+    {
+      "name": "X14",
+      "description": "Vectorial acceleration of left hand (y coordinate)",
+      "dataType": "NUMERIC",
+      "example": -0.00088952,
+      "nullable": false
+    },
+    {
+      "name": "X15",
+      "description": "Vectorial acceleration of left hand (z coordinate)",
+      "dataType": "NUMERIC",
+      "example": 0.00048922,
+      "nullable": false
+    },
+    {
+      "name": "X16",
+      "description": "Vectorial acceleration of right hand (x coordinate)",
+      "dataType": "NUMERIC",
+      "example": 0.00061139,
+      "nullable": false
+    },
+    {
+      "name": "X17",
+      "description": "Vectorial acceleration of right hand (y coordinate)",
+      "dataType": "NUMERIC",
+      "example": 0.00045307,
+      "nullable": false
+    },
+    {
+      "name": "X18",
+      "description": "Vectorial acceleration of right hand (z coordinate)",
+      "dataType": "NUMERIC",
+      "example": 0.00059032,
+      "nullable": false
+    },
+    {
+      "name": "X19",
+      "description": "Vectorial acceleration of left wrist (x coordinate)",
+      "dataType": "NUMERIC",
+      "example": 4.335e-05,
+      "nullable": false
+    },
+    {
+      "name": "X20",
+      "description": "Vectorial acceleration of left wrist (y coordinate)",
+      "dataType": "NUMERIC",
+      "example": 7.839e-05,
+      "nullable": false
+    },
+    {
+      "name": "X21",
+      "description": "Vectorial acceleration of left wrist (z coordinate)",
+      "dataType": "NUMERIC",
+      "example": -1.933e-05,
+      "nullable": false
+    },
+    {
+      "name": "X22",
+      "description": "Vectorial acceleration of right wrist (x coordinate)",
+      "dataType": "NUMERIC",
+      "example": -0.00039585,
+      "nullable": false
+    },
+    {
+      "name": "X23",
+      "description": "Vectorial acceleration of right wrist (y coordinate)",
+      "dataType": "NUMERIC",
+      "example": -7.1e-06,
+      "nullable": false
+    },
+    {
+      "name": "X24",
+      "description": "Vectorial acceleration of right wrist (z coordinate)",
+      "dataType": "NUMERIC",
+      "example": 0.00018808,
+      "nullable": false
+    },
+    {
+      "name": "X25",
+      "description": "Scalar velocity of left hand",
+      "dataType": "NUMERIC",
+      "example": 0.00513333,
+      "nullable": false
+    },
+    {
+      "name": "X26",
+      "description": "Scalar velocity of right hand",
+      "dataType": "NUMERIC",
+      "example": 0.01040016,
+      "nullable": false
+    },
+    {
+      "name": "X27",
+      "description": "Scalar velocity of left wrist",
+      "dataType": "NUMERIC",
+      "example": 0.00064639,
+      "nullable": false
+    },
+    {
+      "name": "X28",
+      "description": "Scalar velocity of right wrist",
+      "dataType": "NUMERIC",
+      "example": 0.00787095,
+      "nullable": false
+    },
+    {
+      "name": "X29",
+      "description": "Scalar acceleration of left hand",
+      "dataType": "NUMERIC",
+      "example": 0.00463118,
+      "nullable": false
+    },
+    {
+      "name": "X30",
+      "description": "Scalar acceleration of right hand",
+      "dataType": "NUMERIC",
+      "example": 0.0009631,
+      "nullable": false
+    },
+    {
+      "name": "X31",
+      "description": "Scalar acceleration of left wrist",
+      "dataType": "NUMERIC",
+      "example": 9.164e-05,
+      "nullable": false
+    },
+    {
+      "name": "X32",
+      "description": "Scalar acceleration of right wrist",
+      "dataType": "NUMERIC",
+      "example": 0.00043831,
+      "nullable": false
+    }
+  ]
+}

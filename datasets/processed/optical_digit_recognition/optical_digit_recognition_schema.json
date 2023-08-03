@@ -1,0 +1,477 @@
+{
+  "title": "Optical Recognition of Handwritten Digits",
+  "summary": "Dataset for optical recognition of handwritten digits.",
+  "modelCategory": "multiclass_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "id": {
+    "name": "id",
+    "description": "Unique identifier for each sample in the dataset."
+  },
+  "target": {
+    "name": "digit",
+    "description": "Target class: handwritten digit - one of {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}",
+    "classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "features": [
+    {
+      "name": "block_0",
+      "description": "num of on pixels in block 0",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_1",
+      "description": "num of on pixels in block 1",
+      "dataType": "NUMERIC",
+      "example": 1,
+      "nullable": false
+    },
+    {
+      "name": "block_2",
+      "description": "num of on pixels in block 2",
+      "dataType": "NUMERIC",
+      "example": 6,
+      "nullable": false
+    },
+    {
+      "name": "block_3",
+      "description": "num of on pixels in block 3",
+      "dataType": "NUMERIC",
+      "example": 15,
+      "nullable": false
+    },
+    {
+      "name": "block_4",
+      "description": "num of on pixels in block 4",
+      "dataType": "NUMERIC",
+      "example": 12,
+      "nullable": false
+    },
+    {
+      "name": "block_5",
+      "description": "num of on pixels in block 5",
+      "dataType": "NUMERIC",
+      "example": 1,
+      "nullable": false
+    },
+    {
+      "name": "block_6",
+      "description": "num of on pixels in block 6",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_7",
+      "description": "num of on pixels in block 7",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_8",
+      "description": "num of on pixels in block 8",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_9",
+      "description": "num of on pixels in block 9",
+      "dataType": "NUMERIC",
+      "example": 7,
+      "nullable": false
+    },
+    {
+      "name": "block_10",
+      "description": "num of on pixels in block 10",
+      "dataType": "NUMERIC",
+      "example": 16,
+      "nullable": false
+    },
+    {
+      "name": "block_11",
+      "description": "num of on pixels in block 11",
+      "dataType": "NUMERIC",
+      "example": 6,
+      "nullable": false
+    },
+    {
+      "name": "block_12",
+      "description": "num of on pixels in block 12",
+      "dataType": "NUMERIC",
+      "example": 6,
+      "nullable": false
+    },
+    {
+      "name": "block_13",
+      "description": "num of on pixels in block 13",
+      "dataType": "NUMERIC",
+      "example": 10,
+      "nullable": false
+    },
+    {
+      "name": "block_14",
+      "description": "num of on pixels in block 14",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_15",
+      "description": "num of on pixels in block 15",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_16",
+      "description": "num of on pixels in block 16",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_17",
+      "description": "num of on pixels in block 17",
+      "dataType": "NUMERIC",
+      "example": 8,
+      "nullable": false
+    },
+    {
+      "name": "block_18",
+      "description": "num of on pixels in block 18",
+      "dataType": "NUMERIC",
+      "example": 16,
+      "nullable": false
+    },
+    {
+      "name": "block_19",
+      "description": "num of on pixels in block 19",
+      "dataType": "NUMERIC",
+      "example": 2,
+      "nullable": false
+    },
+    {
+      "name": "block_20",
+      "description": "num of on pixels in block 20",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_21",
+      "description": "num of on pixels in block 21",
+      "dataType": "NUMERIC",
+      "example": 11,
+      "nullable": false
+    },
+    {
+      "name": "block_22",
+      "description": "num of on pixels in block 22",
+      "dataType": "NUMERIC",
+      "example": 2,
+      "nullable": false
+    },
+    {
+      "name": "block_23",
+      "description": "num of on pixels in block 23",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_24",
+      "description": "num of on pixels in block 24",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_25",
+      "description": "num of on pixels in block 25",
+      "dataType": "NUMERIC",
+      "example": 5,
+      "nullable": false
+    },
+    {
+      "name": "block_26",
+      "description": "num of on pixels in block 26",
+      "dataType": "NUMERIC",
+      "example": 16,
+      "nullable": false
+    },
+    {
+      "name": "block_27",
+      "description": "num of on pixels in block 27",
+      "dataType": "NUMERIC",
+      "example": 3,
+      "nullable": false
+    },
+    {
+      "name": "block_28",
+      "description": "num of on pixels in block 28",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_29",
+      "description": "num of on pixels in block 29",
+      "dataType": "NUMERIC",
+      "example": 5,
+      "nullable": false
+    },
+    {
+      "name": "block_30",
+      "description": "num of on pixels in block 30",
+      "dataType": "NUMERIC",
+      "example": 7,
+      "nullable": false
+    },
+    {
+      "name": "block_31",
+      "description": "num of on pixels in block 31",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_32",
+      "description": "num of on pixels in block 32",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_33",
+      "description": "num of on pixels in block 33",
+      "dataType": "NUMERIC",
+      "example": 7,
+      "nullable": false
+    },
+    {
+      "name": "block_34",
+      "description": "num of on pixels in block 34",
+      "dataType": "NUMERIC",
+      "example": 13,
+      "nullable": false
+    },
+    {
+      "name": "block_35",
+      "description": "num of on pixels in block 35",
+      "dataType": "NUMERIC",
+      "example": 3,
+      "nullable": false
+    },
+    {
+      "name": "block_36",
+      "description": "num of on pixels in block 36",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_37",
+      "description": "num of on pixels in block 37",
+      "dataType": "NUMERIC",
+      "example": 8,
+      "nullable": false
+    },
+    {
+      "name": "block_38",
+      "description": "num of on pixels in block 38",
+      "dataType": "NUMERIC",
+      "example": 7,
+      "nullable": false
+    },
+    {
+      "name": "block_39",
+      "description": "num of on pixels in block 39",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_40",
+      "description": "num of on pixels in block 40",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_41",
+      "description": "num of on pixels in block 41",
+      "dataType": "NUMERIC",
+      "example": 4,
+      "nullable": false
+    },
+    {
+      "name": "block_42",
+      "description": "num of on pixels in block 42",
+      "dataType": "NUMERIC",
+      "example": 12,
+      "nullable": false
+    },
+    {
+      "name": "block_43",
+      "description": "num of on pixels in block 43",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_44",
+      "description": "num of on pixels in block 44",
+      "dataType": "NUMERIC",
+      "example": 1,
+      "nullable": false
+    },
+    {
+      "name": "block_45",
+      "description": "num of on pixels in block 45",
+      "dataType": "NUMERIC",
+      "example": 13,
+      "nullable": false
+    },
+    {
+      "name": "block_46",
+      "description": "num of on pixels in block 46",
+      "dataType": "NUMERIC",
+      "example": 5,
+      "nullable": false
+    },
+    {
+      "name": "block_47",
+      "description": "num of on pixels in block 47",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_48",
+      "description": "num of on pixels in block 48",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_49",
+      "description": "num of on pixels in block 49",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_50",
+      "description": "num of on pixels in block 50",
+      "dataType": "NUMERIC",
+      "example": 14,
+      "nullable": false
+    },
+    {
+      "name": "block_51",
+      "description": "num of on pixels in block 51",
+      "dataType": "NUMERIC",
+      "example": 9,
+      "nullable": false
+    },
+    {
+      "name": "block_52",
+      "description": "num of on pixels in block 52",
+      "dataType": "NUMERIC",
+      "example": 15,
+      "nullable": false
+    },
+    {
+      "name": "block_53",
+      "description": "num of on pixels in block 53",
+      "dataType": "NUMERIC",
+      "example": 9,
+      "nullable": false
+    },
+    {
+      "name": "block_54",
+      "description": "num of on pixels in block 54",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_55",
+      "description": "num of on pixels in block 55",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_56",
+      "description": "num of on pixels in block 56",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_57",
+      "description": "num of on pixels in block 57",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_58",
+      "description": "num of on pixels in block 58",
+      "dataType": "NUMERIC",
+      "example": 6,
+      "nullable": false
+    },
+    {
+      "name": "block_59",
+      "description": "num of on pixels in block 59",
+      "dataType": "NUMERIC",
+      "example": 14,
+      "nullable": false
+    },
+    {
+      "name": "block_60",
+      "description": "num of on pixels in block 60",
+      "dataType": "NUMERIC",
+      "example": 7,
+      "nullable": false
+    },
+    {
+      "name": "block_61",
+      "description": "num of on pixels in block 61",
+      "dataType": "NUMERIC",
+      "example": 1,
+      "nullable": false
+    },
+    {
+      "name": "block_62",
+      "description": "num of on pixels in block 62",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "block_63",
+      "description": "num of on pixels in block 63",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    }
+  ]
+}
