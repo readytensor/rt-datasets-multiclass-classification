@@ -1,16 +1,23 @@
-# Datasets for Multi-Class Classification Base category on Ready Tensor
+# Datasets for Multi-Class Classification category on Ready Tensor
 
-- The `raw` folder contains the original data files from the source (see attributions below). The Jupyter notebook file within each dataset folder is used to convert the raw data file for each dataset into the full processed dataset in `raw` folder into the processed form in `processed` folder.
-- `processed` folder contains the processed files. These files are used in algorithm evaluations.
+This repository contains benchmark datasets for the Multi-Class Classification category on Ready Tensor. You can find all files related to each dataset in the `datasets/processed/<dataset_name>` folder.
 
-  - The CSV file with suffix "\_train.csv" is used for training
-  - "\_test.csv" is used for testing (without the targets)
-  - "\_test_key.csv" contains the ids and targets for the test data. This test key file is used to generate scores by comparing with predictions.
-  - The JSON file with suffix "\_schema.json" is the schema file for the corresponding dataset.
-  - The json file with the suffix "\_inference_requeest_sample.json" contains a sample JSON object with the data to make an inference request to the /infer endpoint.
-  - The CSV file with the dataset name, and no other suffix, is the full data (made of both train and test sets).
+## Project Contents
 
-- The folder `config` contains two csv files - one called `multiclass_classification_datasets_metadata.csv` which contains the dataset level attribute information. The second csv called `multiclass_classification_datasets_fields.csv` contains information regarding all the fields in each of the datasets.
+In this repository, you will find the following:
+
+- `datasets` folder contains the datasets used in benchmarking for the Multi-Class Classification category on Ready Tensor.
+
+  - The `raw` folder contains the original data files from the source (see attributions below). The Jupyter notebook file within each dataset folder is used to convert the raw data file for each dataset in `raw` folder into the processed CSV form in `processed` folder.
+  - `processed` folder contains the processed files. These files are used in algorithm evaluations.
+    - The CSV file with suffix "\_train.csv" is used for training
+    - "\_test.csv" is used for testing (without the targets)
+    - "\_test_key.csv" contains the ids and targets for the test data. This test key file is used to generate scores by comparing with predictions.
+    - The JSON file with suffix "\_schema.json" is the schema file for the corresponding dataset.
+    - The json file with the suffix "\_inference_request_sample.json" contains a sample JSON object with the data to make an inference request to the /infer endpoint.
+    - The CSV file with the dataset name, and no other suffix, is the full data (made of both train and test sets).
+
+- The folder `config` contains two csv files - one called `multiclass_classification_datasets_metadata.csv` which contains the dataset level attribute information. The second csv called `multiclass_classification_datasets_fields.csv` contains information regarding all the fields in each of the datasets. These two files are used by the following scripts to generate the schema, train, test, test_key, and sample inference request data files for each dataset.
 - `generate_schemas.py`: contains the code to generate the schema files for each dataset.
 - `create_train_test_key_files.py`: contains the code to generate the train, test, and test-key files for each dataset.
 - `generate_inference_data.py`: contains the code to generate the inference request sample data for each dataset.
@@ -18,11 +25,13 @@
 
 ---
 
+## Datasets
+
 The following is the list of datasets along with a brief description for each and its attribution:
 
 ---
 
-## Car Evaluation
+### Car Evaluation
 
 #### Alias (in scorecards): car_evaluation
 
@@ -60,25 +69,25 @@ Irvine, CA: University of California, School of Information and Computer Science
 
 ---
 
-## DNA Splice Junction
+### DNA Splice-Junction Gene Sequences
 
-#### Alias (in scorecards): splice_junction
+#### Alias (in scorecards): dna_splice_junction
 
 #### Domain / Industry: Molecular Biology
 
 #### Description
 
-The problem posed in this dataset is to recognize, given a sequence of DNA, the boundaries between exons (the parts of the DNA sequence retained after splicing) and introns (the parts of the DNA sequence that are spliced out). This problem consists of two subtasks: recognizing exon/intron boundaries (referred to as EI sites), and recognizing intron/exon boundaries (IE sites). (In the biological community, IE borders are referred to as acceptors while EI borders are referred to as donors.
+The problem posed in this dataset is to recognize, given a sequence of DNA, the boundaries between exons (the parts of the DNA sequence retained after splicing) and introns (the parts of the DNA sequence that are spliced out). This problem consists of two subtasks: recognizing exon/intron boundaries (referred to as EI sites), and recognizing intron/exon boundaries (IE sites). In the biological community, IE borders are referred to as acceptors while EI borders are referred to as donors.
 
 #### Dataset characteristics
 
-- Number of samples = 3,190
+- Number of samples = 3178
 - Number of input features = 62
 - Number of target classes = 3
 - Has categorical features = Yes
 - Has missing values = No
 
-Original dataset contains 3,190 samples. The field called `Instance` is used as the unique identifier. Some instance ids had multiple records - in such case, the first record is retained.
+Original dataset contains 3,190 samples. The field called `Instance` is used as the unique identifier. Some instance ids had multiple records - in such case, the first record is retained and others are dropped.
 
 #### Attribution
 
@@ -139,7 +148,7 @@ Irvine, CA: University of California, School of Information and Computer Science
 
 ---
 
-## IPUMS Census Small
+### IPUMS Census Small
 
 #### Alias (in scorecards): ipums_census_small
 
@@ -181,7 +190,46 @@ Irvine, CA: University of California, School of Information and Computer Science
 
 ---
 
-## Landsat Satellite
+## Iris
+
+#### Alias (in scorecards): iris
+
+#### Domain / Industry: Biosciences
+
+#### Description
+
+This is the popular iris dataset used in academic courses related to multiclass classification, clustering and pattern recognotion.
+
+The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other.
+
+#### Dataset characteristics
+
+- Number of samples = 150
+- Number of input features = 4
+- Number of target classes = 3
+- Has categorical features = No
+- Has missing values = No
+
+#### Attribution
+
+Source:  
+Fisher,R.A. "The use of multiple measurements in taxonomic problems" Annual Eugenics, 7, Part II, 179-188 (1936); also in "Contributions to Mathematical Statistics" (John Wiley, NY, 1950).
+
+Creator:  
+R.A. Fisher
+
+Donor:  
+Michael Marshall (MARSHALL%PLU '@' io.arc.nasa.gov)
+
+Dataset can be found here: https://archive.ics.uci.edu/ml/datasets/iris
+
+UCI Machine Learning Repository  
+http://archive.ics.uci.edu/ml  
+Irvine, CA: University of California, School of Information and Computer Science.
+
+---
+
+### Landsat Satellite
 
 #### Alias (in scorecards): landsat_satellite
 
@@ -201,90 +249,161 @@ The database consists of the multi-spectral values of pixels in 3x3 neighbourhoo
 
 #### Attribution
 
-Source:
-
-Ashwin Srinivasan
-Department of Statistics and Data Modeling
-University of Strathclyde
-Glasgow
-Scotland
-UK
+Source:  
+Ashwin Srinivasan  
+Department of Statistics and Data Modeling  
+University of Strathclyde  
+Glasgow  
+Scotland  
+UK  
 ross '@' uk.ac.turing
 
-The original Landsat data for this database was generated from data purchased from NASA by the Australian Centre for Remote Sensing, and used for research at:
-The Centre for Remote Sensing
-University of New South Wales
-Kensington, PO Box 1
-NSW 2033
-Australia.
+The original Landsat data for this database was generated from data purchased from NASA by the Australian Centre for Remote Sensing, and used for research at:  
+The Centre for Remote Sensing  
+University of New South Wales  
+Kensington, PO Box 1  
+NSW 2033  
+Australia
 
-Dataset can be found here:
+Dataset can be found here:  
 http://archive.ics.uci.edu/ml/datasets/Statlog+(Landsat+Satellite)
 
-UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+UCI Machine Learning Repository  
+http://archive.ics.uci.edu/ml  
+Irvine, CA: University of California, School of Information and Computer Science.
 
 ---
 
-## Page Blocks Classification
+### Nursery
 
-#### Alias (in scorecards): page_blocks
+#### Alias (in scorecards): nursery
 
-#### Domain / Industry: Information / Digital Media
+#### Domain / Industry: Education
 
 #### Description
 
-The problem consists in classifying all the blocks of the page layout of a document that has been detected by a segmentation process. This is an essential step in document analysis in order to separate text from graphic areas. Indeed, the five classes are: text (1), horizontal line (2), picture (3), vertical line (4) and graphic (5).
+Nursery Database was derived from a hierarchical decision model originally developed to rank applications for nursery schools. It was used during several years in 1980's when there was excessive enrollment to these schools in Ljubljana, Slovenia, and the rejected applications frequently needed an objective explanation. The final decision depended on three subproblems:
 
-The inputs used for classification of each block include features such as block height, length, area, eccentricity, mean number of white-black transitions, etc.
+- occupation of parents and child's nursery
+- family structure and
+- financial standing, and social and health picture of the family.
+
+This dataset can be used for multiclass classification to predict the decision of nursery school admission. The decision falls into one of five categories: not_recom, recommend, very_recom, priority, spec_prior.
 
 #### Dataset characteristics
 
-- Number of samples = 5,473
-- Number of input features = 11
+- Number of samples = 12,970
+- Number of input features = 81
 - Number of target classes = 5
-- Has categorical features = No
+- Has categorical features = Yes
 - Has missing values = No
 
 #### Attribution
 
 Creator:
-Donato Malerba Dipartimento di Informatica University of Bari via Orabona 4 70126 Bari - Italy phone: +39 - 80 - 5443269 fax: +39 - 80 - 5443196 malerbad@vm.csata.it
+Vladislav Rajkovic et al. (13 experts)
 
-Donor:
-Donato Malerba (c) Date: July 1995
+Donor:  
+Marko Bohanec (marko.bohanec@ijs.si)  
+Blaz Zupan (blaz.zupan@ijs.si)
 
 Dataset can be found here:
-https://www.openml.org/d/30
+https://archive.ics.uci.edu/dataset/76/nursery
+
+UCI Machine Learning Repository  
+http://archive.ics.uci.edu/ml  
+Irvine, CA: University of California, School of Information and Computer Science.
 
 ---
 
-## Primary Tumor
+### Optical Digit Recognition
 
-#### Alias (in scorecards): primary_tumor
+#### Alias (in scorecards): optical_digit_recognition
 
-#### Domain / Industry: Healthcare
+#### Domain / Industry: Cross Industry (Computer Vision)
 
 #### Description
 
-This primary tumor domain was obtained from the University Medical Centre, Institute of Oncology, Ljubljana, Yugoslavia. Thanks go to M. Zwitter and M. Soklic for providing the data.
+This dataset contains features related to extracted normalized bitmaps of handwritten digits from a preprinted form. The original scanned digits are binary images of size 32x32. The images are divided into non-overlapping blocks of 4x4 and the number of on pixels are counted in each block. This generates an input matrix of 8x8 where each element is an integer in the range 0..16. This reduces dimensionality and gives invariance to small distortions. This dataset can be used for tabular multiclass classification problem. The task is to predict the digit (0-9) given the 64 features (corresponding to the 8x8 matrix).
 
-This is one of three domains provided by the Oncology Institute that has repeatedly appeared in the machine learning literature. (See also breast-cancer and lymphography.)
+Note that the original dataset contained separate files for training and testing. These are concatenated into a single file for this benchmark, and then a random 80-20 split is used to create the train and test sets.
 
 #### Dataset characteristics
 
-- Number of samples = 339
-- Number of input features = 17
-- Number of target classes = 22
+- Number of samples = 5,620
+- Number of input features = 64
+- Number of target classes = 10
+- Has categorical features = No
+- Has missing values = No
+
+#### Attribution
+
+Source / Donors:  
+E. Alpaydin, C. Kaynak  
+Department of Computer Engineering  
+Bogazici University, 80815 Istanbul Turkey  
+alpaydin@boun.edu.tr
+
+Dataset can be found here:  
+https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits
+
+UCI Machine Learning Repository  
+http://archive.ics.uci.edu/ml  
+Irvine, CA: University of California, School of Information and Computer Science.
+
+---
+
+### Six Concentric Spheres
+
+#### Alias (in scorecards): six_concentric_spheres
+
+#### Domain / Industry: N/A (Synthetic)
+
+#### Description
+
+This is a synthetically dataset consisting of a series of 3D spheres nested within each other. Each sphere forms a distinct class, presenting a multi-class classification problem in a 3-dimensional space. Dataset also contains three features that are correlated with the featues representing the original coordinates `x`, `y`, and `z` individually. Additionally, there are 67 features that are random noise. All features have a small percentage of missing values. The task is to predict the class (sphere) of each sample.
+
+See plot of generated data (original 3 coordinates):
+
+<div style="text-align:center;">
+  <img src="datasets/processed/six_concentric_spheres/six_concentric_spheres_plot.png" alt="Chart Title" width="600">
+</div>
+
+#### Dataset characteristics
+
+- Number of samples = 14,265
+- Number of input features = 73
+- Number of target classes = 6
 - Has categorical features = Yes
 - Has missing values = Yes
 
 #### Attribution
 
-Source / Donors: Igor Kononenko, University E.Kardelj Faculty for electrical engineering Trzaska 25 61000 Ljubljana
+Dataset was synthetically generated by [Ready Tensor](https://www.readytensor.ai/) team.
 
-Dataset can be found here:
+---
 
-https://www.openml.org/d/171
+## Smoke Test Dataset - MC
+
+#### Alias (in scorecards): smoke_test_mc
+
+#### Domain / Industry: N/A (Synthetic)
+
+#### Description
+
+This synthetic dataset presents a multiclass classification problem based on two types of features and a target with three classes. Each sample in the dataset has a unique identifier, a set of two features (color, number), and a target class label.
+
+#### Dataset characteristics
+
+- Number of samples = 200
+- Number of input features = 2
+- Number of target classes = 3
+- Has categorical features = Yes
+- Has missing values = Yes
+
+#### Attribution
+
+Dataset was synthetically generated by [Ready Tensor](https://www.readytensor.ai/) team.
 
 ---
 
@@ -306,67 +425,42 @@ This is the soybean disease diagnosis dataset. Samples contain 35 attributes fro
 - Has categorical features = Yes
 - Has missing values = Yes
 
+Note that the original data has separate files for training and testing. These are concatenated into a single file for this benchmark, and then a random 80-20 split is used to create the train and test sets.
+
 #### Attribution
 
 Dataset from this study:
 
 R.S. Michalski and R.L. Chilausky "Learning by Being Told and Learning from Examples: An Experimental Comparison of the Two Methods of Knowledge Acquisition in the Context of Developing an Expert System for Soybean Disease Diagnosis", International Journal of Policy Analysis and Information Systems, Vol. 4, No. 2, 1980.
 
-Donor:
+Donor:  
 Ming Tan & Jeff Schlimmer (Jeff.Schlimmer%cs.cmu.edu)
 
-Dataset can be found here:
+Dataset can be found here:  
 https://archive.ics.uci.edu/ml/datasets/Soybean+(Large)
 
-UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+UCI Machine Learning Repository  
+http://archive.ics.uci.edu/ml  
+Irvine, CA: University of California, School of Information and Computer Science.
 
 ---
 
-## Spotify Song Genre
+## Steel Plate Faults
 
-#### Alias (in scorecards): spotify_genre
+#### Alias (in scorecards): steel_plate_faults
 
-#### Domain / Industry: Music / Audio Streaming
-
-#### Description
-
-This dataset consists of features of songs from various genres such as Trap, Techno, Techhouse, HipHop, Rap, Pop, Emo, etc. In this task, we use the song features such as danceability, energy, key, loudness, speechiness, tempo etc. to identify the song genre.
-
-The original dataset contained 42,305 songs from 15 genres. We filtered the dataset to contain songs from 7 genres, namely, Hiphop, Trap, Techno, RnB, Rap, Pop and Emo.
-
-Some songs were marked under multiple genres. In such cases, we retained only the first observed sample of the song to keep the problem under the multi-class classification category. So each song has a single genre in the final processed dataset.
-
-#### Dataset characteristics
-
-- Number of samples = 13,566
-- Number of input features = 13
-- Number of target classes = 7
-- Has categorical features = Yes
-- Has missing values = No
-
-#### Attribution
-
-Dataset can be found here:
-https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify
-
----
-
-## Steel Plate Fault
-
-#### Alias (in scorecards): steel_plate_fault
-
-#### Domain / Industry: Steelmaking / Steel
+#### Domain / Industry: Steel Manufacturing
 
 #### Description
 
-A dataset of steel plates faults, classified into 7 different types. The goal is to train machine learning for automatic pattern recognition.
+A dataset of steel plates faults, classified into 7 different types. The input features are 27 indicators that approximately describe the geometric shape of the defect and its outline.
 
 #### Dataset characteristics
 
 - Number of samples = 1,941
-- Number of input features = 27
+- Number of input features = 26
 - Number of target classes = 7
-- Has categorical features = No
+- Has categorical features = Yes
 - Has missing values = No
 
 #### Attribution
@@ -376,14 +470,93 @@ Source:
 Semeion, Research Center of Sciences of Communication, Via Sersale 117, 00128, Rome, Italy.
 www.semeion.it
 
-Dataset can be found here:
-http://archive.ics.uci.edu/ml/datasets/steel+plates+faults
+Dataset can be found here:  
+https://archive.ics.uci.edu/dataset/198/steel+plates+faults
 
-UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+UCI Machine Learning Repository  
+http://archive.ics.uci.edu/ml  
+Irvine, CA: University of California, School of Information and Computer Science.
 
 ---
 
-## Vehicle Silhouettes
+## Student Dropout
+
+#### Alias (in scorecards): student_dropout
+
+#### Domain / Industry: Education
+
+#### Description
+
+This is a dataset related to students enrolled in different undergraduate degrees. The data is used to build classification models to predict students' dropout and academic sucess. The problem is formulated as a three category classification task, in which there is a strong imbalance towards one of the classes.
+
+#### Dataset characteristics
+
+- Number of samples = 4,424
+- Number of input features = 36
+- Number of target classes = 3
+- Has categorical features = Yes
+- Has missing values = No
+
+#### Attribution
+
+Creators:
+
+Valentim Realinho  
+vrealinho@  
+Instituto Politécnico de Portalegre
+
+Mónica Vieira Martins  
+mvmartins@ipportalegre.pt  
+Instituto Politécnico de Portalegre
+
+Jorge Machado  
+jmachado@ipportalegre.pt
+Instituto Politécnico de Portalegre
+
+Luís Baptista  
+lmtb@ipportalegre.pt  
+Instituto Politécnico de Portalegre
+
+Dataset can be found here:  
+https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
+
+UCI Machine Learning Repository  
+http://archive.ics.uci.edu/ml  
+Irvine, CA: University of California, School of Information and Computer Science.
+
+---
+
+## Torus Chain
+
+#### Alias (in scorecards): torus_chain
+
+#### Domain / Industry: N/A (Synthetic)
+
+#### Description
+
+A synthetic dataset consisting of a chain of 5 torus rings in a 3D space. The chain represents a multi-class classification problem in a 3-dimensional space, with each torus ring forming a separate class.
+
+The following plot shows the data:
+
+<div style="text-align:center;">
+  <img src="datasets/processed/torus_chain/torus_chain_plot.png" alt="Chart Title" width="600">
+</div>
+
+#### Dataset characteristics
+
+- Number of samples = 2,500
+- Number of input features = 3
+- Number of target classes = 5
+- Has categorical features = No
+- Has missing values = Yes
+
+#### Attribution
+
+Dataset was synthetically generated by [Ready Tensor](https://www.readytensor.ai/) team.
+
+---
+
+### Vehicle Silhouettes
 
 #### Alias (in scorecards): vehicle_silhouettes
 
@@ -401,7 +574,7 @@ The original purpose of the study was to find a method of distinguishing 3D obje
 
 #### Dataset characteristics
 
-- Number of samples = 1,846
+- Number of samples = 846
 - Number of input features = 18
 - Number of target classes = 4
 - Has categorical features = No
@@ -409,11 +582,10 @@ The original purpose of the study was to find a method of distinguishing 3D obje
 
 #### Attribution
 
-Data comes from this study:
+Data comes from this study:  
 Siebert,JP. Turing Institute Research Memorandum TIRM-87-018 "Vehicle Recognition Using Rule Based Methods" (March 1987).
 
-Source:
-
+Source:  
 Drs.Pete Mowforth and Barry Shepherd
 Turing Institute
 George House
@@ -421,9 +593,11 @@ George House
 Glasgow
 G1 2AD
 
-Dataset can be found here:
+Dataset can be found here:  
 https://archive.ics.uci.edu/ml/datasets/Statlog+(Vehicle+Silhouettes)
 
-UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+UCI Machine Learning Repository  
+http://archive.ics.uci.edu/ml  
+Irvine, CA: University of California, School of Information and Computer Science.
 
 ---
