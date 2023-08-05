@@ -1,5 +1,5 @@
 {
-  "title": "Splice-junction Gene Sequences",
+  "title": "Splice-Junction Gene Sequences",
   "summary": "The problem posed in this dataset is to recognize, given a sequence of DNA, the boundaries between exons (the parts of the DNA sequence retained after splicing) and introns (the parts of the DNA sequence that are spliced out).",
   "modelCategory": "multiclass_classification",
   "schemaVersion": 1.0,
