@@ -1,6 +1,6 @@
 {
   "title": "Iris",
-  "summary": "A small classic dataset from Fisher, 1936. One of the earliest datasets used for evaluation of classification methodologies. The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant.",
+  "description": "A small classic dataset from Fisher, 1936. One of the earliest datasets used for evaluation of classification methodologies. The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant.",
   "modelCategory": "multiclass_classification",
   "schemaVersion": 1.0,
   "inputDataFormat": "CSV",

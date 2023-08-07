@@ -1,6 +1,6 @@
 {
   "title": "Gesture Phase Segmentation",
-  "summary": "The dataset is composed by features extracted from 7 videos with people gesticulating, aiming at studying Gesture Phase Segmentation. It contains 50 attributes divided into two files for each video.",
+  "description": "The dataset is composed by features extracted from 7 videos with people gesticulating, aiming at studying Gesture Phase Segmentation. It contains 50 attributes divided into two files for each video.",
   "modelCategory": "multiclass_classification",
   "schemaVersion": 1.0,
   "inputDataFormat": "CSV",

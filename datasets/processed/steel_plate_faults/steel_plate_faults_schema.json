@@ -1,6 +1,6 @@
 {
   "title": "Steel Plates Faults",
-  "summary": "A dataset of steel plates faults, classified into 7 different types. The input features are 27 indicators that approximately describe the geometric shape of the defect and its outline.",
+  "description": "A dataset of steel plates faults, classified into 7 different types. The input features are 27 indicators that approximately describe the geometric shape of the defect and its outline.",
   "modelCategory": "multiclass_classification",
   "schemaVersion": 1.0,
   "inputDataFormat": "CSV",

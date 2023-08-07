@@ -1,6 +1,6 @@
 {
   "title": "Car Evaluation",
-  "summary": "Car Evaluation dataset - categorize cars into unacceptable, acceptable, good and very-good categories based on car attributes, all of which are categorical.",
+  "description": "Car Evaluation dataset - categorize cars into unacceptable, acceptable, good and very-good categories based on car attributes, all of which are categorical.",
   "modelCategory": "multiclass_classification",
   "schemaVersion": 1.0,
   "inputDataFormat": "CSV",

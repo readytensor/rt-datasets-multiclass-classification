@@ -1,6 +1,6 @@
 {
   "title": "IPUMS Census Database - Small",
-  "summary": "This smaller version of the IPUMS census dataset consists of samples of households or dwellings from the Los Angeles - Long Beach area. The task is to predict the \u0091movedin\u0092 category, given various demographic attributes regarding households.",
+  "description": "This smaller version of the IPUMS census dataset consists of samples of households or dwellings from the Los Angeles - Long Beach area. The task is to predict the \u0091movedin\u0092 category, given various demographic attributes regarding households.",
   "modelCategory": "multiclass_classification",
   "schemaVersion": 1.0,
   "inputDataFormat": "CSV",

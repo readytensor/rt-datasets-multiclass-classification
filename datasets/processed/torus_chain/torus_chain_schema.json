@@ -1,6 +1,6 @@
 {
   "title": "Torus Chain",
-  "summary": "A synthetic dataset consisting of a chain of 5 torus rings in a 3D space. The chain represents a multi-class classification problem in a 3-dimensional space, with each torus ring forming a separate class.",
+  "description": "A synthetic dataset consisting of a chain of 5 torus rings in a 3D space. The chain represents a multi-class classification problem in a 3-dimensional space, with each torus ring forming a separate class.",
   "modelCategory": "multiclass_classification",
   "schemaVersion": 1.0,
   "inputDataFormat": "CSV",

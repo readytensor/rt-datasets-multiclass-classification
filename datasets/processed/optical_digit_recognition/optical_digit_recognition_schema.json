@@ -1,6 +1,6 @@
 {
   "title": "Optical Recognition of Handwritten Digits",
-  "summary": "Dataset for optical recognition of handwritten digits.",
+  "description": "Dataset for optical recognition of handwritten digits.",
   "modelCategory": "multiclass_classification",
   "schemaVersion": 1.0,
   "inputDataFormat": "CSV",

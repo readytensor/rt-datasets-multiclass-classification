@@ -1,6 +1,6 @@
 {
   "title": "Soybean (Large)",
-  "summary": "Michalski's famous soybean disease database.",
+  "description": "Michalski's famous soybean disease database.",
   "modelCategory": "multiclass_classification",
   "schemaVersion": 1.0,
   "inputDataFormat": "CSV",
