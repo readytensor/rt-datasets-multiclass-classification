@@ -1,0 +1,727 @@
+{
+  "title": "Modulus-8",
+  "description": "The synthetically generated dataset comprises 8,000 samples with 100 features\u009750 decisive predictors and 50 noise variables. The target classes, ranging from 0 to 7, are derived from the modulus of the sum of the first 50 features with 8, ensuring a challenging multi-class classification scenario.",
+  "modelCategory": "multiclass_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "id": {
+    "name": "id",
+    "description": "Unique identifier for each sample in the dataset."
+  },
+  "target": {
+    "name": "target",
+    "description": "Target class: {0, 1, 2, 3, 4, 5, 6, 7}",
+    "classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "features": [
+    {
+      "name": "predictor_1",
+      "description": "Predictor feature 1",
+      "dataType": "NUMERIC",
+      "example": 92,
+      "nullable": false
+    },
+    {
+      "name": "predictor_2",
+      "description": "Predictor feature 2",
+      "dataType": "NUMERIC",
+      "example": 34,
+      "nullable": false
+    },
+    {
+      "name": "predictor_3",
+      "description": "Predictor feature 3",
+      "dataType": "NUMERIC",
+      "example": 12,
+      "nullable": false
+    },
+    {
+      "name": "predictor_4",
+      "description": "Predictor feature 4",
+      "dataType": "NUMERIC",
+      "example": 95,
+      "nullable": false
+    },
+    {
+      "name": "predictor_5",
+      "description": "Predictor feature 5",
+      "dataType": "NUMERIC",
+      "example": 19,
+      "nullable": false
+    },
+    {
+      "name": "predictor_6",
+      "description": "Predictor feature 6",
+      "dataType": "NUMERIC",
+      "example": 2,
+      "nullable": false
+    },
+    {
+      "name": "predictor_7",
+      "description": "Predictor feature 7",
+      "dataType": "NUMERIC",
+      "example": 55,
+      "nullable": false
+    },
+    {
+      "name": "predictor_8",
+      "description": "Predictor feature 8",
+      "dataType": "NUMERIC",
+      "example": 87,
+      "nullable": false
+    },
+    {
+      "name": "predictor_9",
+      "description": "Predictor feature 9",
+      "dataType": "NUMERIC",
+      "example": 6,
+      "nullable": false
+    },
+    {
+      "name": "predictor_10",
+      "description": "Predictor feature 10",
+      "dataType": "NUMERIC",
+      "example": 91,
+      "nullable": false
+    },
+    {
+      "name": "predictor_11",
+      "description": "Predictor feature 11",
+      "dataType": "NUMERIC",
+      "example": 90,
+      "nullable": false
+    },
+    {
+      "name": "predictor_12",
+      "description": "Predictor feature 12",
+      "dataType": "NUMERIC",
+      "example": 47,
+      "nullable": false
+    },
+    {
+      "name": "predictor_13",
+      "description": "Predictor feature 13",
+      "dataType": "NUMERIC",
+      "example": 24,
+      "nullable": false
+    },
+    {
+      "name": "predictor_14",
+      "description": "Predictor feature 14",
+      "dataType": "NUMERIC",
+      "example": 4,
+      "nullable": false
+    },
+    {
+      "name": "predictor_15",
+      "description": "Predictor feature 15",
+      "dataType": "NUMERIC",
+      "example": 10,
+      "nullable": false
+    },
+    {
+      "name": "predictor_16",
+      "description": "Predictor feature 16",
+      "dataType": "NUMERIC",
+      "example": 77,
+      "nullable": false
+    },
+    {
+      "name": "predictor_17",
+      "description": "Predictor feature 17",
+      "dataType": "NUMERIC",
+      "example": 63,
+      "nullable": false
+    },
+    {
+      "name": "predictor_18",
+      "description": "Predictor feature 18",
+      "dataType": "NUMERIC",
+      "example": 90,
+      "nullable": false
+    },
+    {
+      "name": "predictor_19",
+      "description": "Predictor feature 19",
+      "dataType": "NUMERIC",
+      "example": 95,
+      "nullable": false
+    },
+    {
+      "name": "predictor_20",
+      "description": "Predictor feature 20",
+      "dataType": "NUMERIC",
+      "example": 45,
+      "nullable": false
+    },
+    {
+      "name": "predictor_21",
+      "description": "Predictor feature 21",
+      "dataType": "NUMERIC",
+      "example": 35,
+      "nullable": false
+    },
+    {
+      "name": "predictor_22",
+      "description": "Predictor feature 22",
+      "dataType": "NUMERIC",
+      "example": 81,
+      "nullable": false
+    },
+    {
+      "name": "predictor_23",
+      "description": "Predictor feature 23",
+      "dataType": "NUMERIC",
+      "example": 79,
+      "nullable": false
+    },
+    {
+      "name": "predictor_24",
+      "description": "Predictor feature 24",
+      "dataType": "NUMERIC",
+      "example": 31,
+      "nullable": false
+    },
+    {
+      "name": "predictor_25",
+      "description": "Predictor feature 25",
+      "dataType": "NUMERIC",
+      "example": 86,
+      "nullable": false
+    },
+    {
+      "name": "predictor_26",
+      "description": "Predictor feature 26",
+      "dataType": "NUMERIC",
+      "example": 97,
+      "nullable": false
+    },
+    {
+      "name": "predictor_27",
+      "description": "Predictor feature 27",
+      "dataType": "NUMERIC",
+      "example": 23,
+      "nullable": false
+    },
+    {
+      "name": "predictor_28",
+      "description": "Predictor feature 28",
+      "dataType": "NUMERIC",
+      "example": 89,
+      "nullable": false
+    },
+    {
+      "name": "predictor_29",
+      "description": "Predictor feature 29",
+      "dataType": "NUMERIC",
+      "example": 26,
+      "nullable": false
+    },
+    {
+      "name": "predictor_30",
+      "description": "Predictor feature 30",
+      "dataType": "NUMERIC",
+      "example": 83,
+      "nullable": false
+    },
+    {
+      "name": "predictor_31",
+      "description": "Predictor feature 31",
+      "dataType": "NUMERIC",
+      "example": 25,
+      "nullable": false
+    },
+    {
+      "name": "predictor_32",
+      "description": "Predictor feature 32",
+      "dataType": "NUMERIC",
+      "example": 81,
+      "nullable": false
+    },
+    {
+      "name": "predictor_33",
+      "description": "Predictor feature 33",
+      "dataType": "NUMERIC",
+      "example": 82,
+      "nullable": false
+    },
+    {
+      "name": "predictor_34",
+      "description": "Predictor feature 34",
+      "dataType": "NUMERIC",
+      "example": 92,
+      "nullable": false
+    },
+    {
+      "name": "predictor_35",
+      "description": "Predictor feature 35",
+      "dataType": "NUMERIC",
+      "example": 80,
+      "nullable": false
+    },
+    {
+      "name": "predictor_36",
+      "description": "Predictor feature 36",
+      "dataType": "NUMERIC",
+      "example": 12,
+      "nullable": false
+    },
+    {
+      "name": "predictor_37",
+      "description": "Predictor feature 37",
+      "dataType": "NUMERIC",
+      "example": 32,
+      "nullable": false
+    },
+    {
+      "name": "predictor_38",
+      "description": "Predictor feature 38",
+      "dataType": "NUMERIC",
+      "example": 34,
+      "nullable": false
+    },
+    {
+      "name": "predictor_39",
+      "description": "Predictor feature 39",
+      "dataType": "NUMERIC",
+      "example": 60,
+      "nullable": false
+    },
+    {
+      "name": "predictor_40",
+      "description": "Predictor feature 40",
+      "dataType": "NUMERIC",
+      "example": 82,
+      "nullable": false
+    },
+    {
+      "name": "predictor_41",
+      "description": "Predictor feature 41",
+      "dataType": "NUMERIC",
+      "example": 24,
+      "nullable": false
+    },
+    {
+      "name": "predictor_42",
+      "description": "Predictor feature 42",
+      "dataType": "NUMERIC",
+      "example": 76,
+      "nullable": false
+    },
+    {
+      "name": "predictor_43",
+      "description": "Predictor feature 43",
+      "dataType": "NUMERIC",
+      "example": 80,
+      "nullable": false
+    },
+    {
+      "name": "predictor_44",
+      "description": "Predictor feature 44",
+      "dataType": "NUMERIC",
+      "example": 38,
+      "nullable": false
+    },
+    {
+      "name": "predictor_45",
+      "description": "Predictor feature 45",
+      "dataType": "NUMERIC",
+      "example": 58,
+      "nullable": false
+    },
+    {
+      "name": "predictor_46",
+      "description": "Predictor feature 46",
+      "dataType": "NUMERIC",
+      "example": 18,
+      "nullable": false
+    },
+    {
+      "name": "predictor_47",
+      "description": "Predictor feature 47",
+      "dataType": "NUMERIC",
+      "example": 24,
+      "nullable": false
+    },
+    {
+      "name": "predictor_48",
+      "description": "Predictor feature 48",
+      "dataType": "NUMERIC",
+      "example": 56,
+      "nullable": false
+    },
+    {
+      "name": "predictor_49",
+      "description": "Predictor feature 49",
+      "dataType": "NUMERIC",
+      "example": 71,
+      "nullable": false
+    },
+    {
+      "name": "predictor_50",
+      "description": "Predictor feature 50",
+      "dataType": "NUMERIC",
+      "example": 66,
+      "nullable": false
+    },
+    {
+      "name": "dummy_1",
+      "description": "Dummy feature 1",
+      "dataType": "NUMERIC",
+      "example": 76,
+      "nullable": false
+    },
+    {
+      "name": "dummy_2",
+      "description": "Dummy feature 2",
+      "dataType": "NUMERIC",
+      "example": 19,
+      "nullable": false
+    },
+    {
+      "name": "dummy_3",
+      "description": "Dummy feature 3",
+      "dataType": "NUMERIC",
+      "example": 6,
+      "nullable": false
+    },
+    {
+      "name": "dummy_4",
+      "description": "Dummy feature 4",
+      "dataType": "NUMERIC",
+      "example": 21,
+      "nullable": false
+    },
+    {
+      "name": "dummy_5",
+      "description": "Dummy feature 5",
+      "dataType": "NUMERIC",
+      "example": 51,
+      "nullable": false
+    },
+    {
+      "name": "dummy_6",
+      "description": "Dummy feature 6",
+      "dataType": "NUMERIC",
+      "example": 17,
+      "nullable": false
+    },
+    {
+      "name": "dummy_7",
+      "description": "Dummy feature 7",
+      "dataType": "NUMERIC",
+      "example": 81,
+      "nullable": false
+    },
+    {
+      "name": "dummy_8",
+      "description": "Dummy feature 8",
+      "dataType": "NUMERIC",
+      "example": 13,
+      "nullable": false
+    },
+    {
+      "name": "dummy_9",
+      "description": "Dummy feature 9",
+      "dataType": "NUMERIC",
+      "example": 19,
+      "nullable": false
+    },
+    {
+      "name": "dummy_10",
+      "description": "Dummy feature 10",
+      "dataType": "NUMERIC",
+      "example": 73,
+      "nullable": false
+    },
+    {
+      "name": "dummy_11",
+      "description": "Dummy feature 11",
+      "dataType": "NUMERIC",
+      "example": 62,
+      "nullable": false
+    },
+    {
+      "name": "dummy_12",
+      "description": "Dummy feature 12",
+      "dataType": "NUMERIC",
+      "example": 92,
+      "nullable": false
+    },
+    {
+      "name": "dummy_13",
+      "description": "Dummy feature 13",
+      "dataType": "NUMERIC",
+      "example": 87,
+      "nullable": false
+    },
+    {
+      "name": "dummy_14",
+      "description": "Dummy feature 14",
+      "dataType": "NUMERIC",
+      "example": 48,
+      "nullable": false
+    },
+    {
+      "name": "dummy_15",
+      "description": "Dummy feature 15",
+      "dataType": "NUMERIC",
+      "example": 90,
+      "nullable": false
+    },
+    {
+      "name": "dummy_16",
+      "description": "Dummy feature 16",
+      "dataType": "NUMERIC",
+      "example": 19,
+      "nullable": false
+    },
+    {
+      "name": "dummy_17",
+      "description": "Dummy feature 17",
+      "dataType": "NUMERIC",
+      "example": 10,
+      "nullable": false
+    },
+    {
+      "name": "dummy_18",
+      "description": "Dummy feature 18",
+      "dataType": "NUMERIC",
+      "example": 53,
+      "nullable": false
+    },
+    {
+      "name": "dummy_19",
+      "description": "Dummy feature 19",
+      "dataType": "NUMERIC",
+      "example": 25,
+      "nullable": false
+    },
+    {
+      "name": "dummy_20",
+      "description": "Dummy feature 20",
+      "dataType": "NUMERIC",
+      "example": 42,
+      "nullable": false
+    },
+    {
+      "name": "dummy_21",
+      "description": "Dummy feature 21",
+      "dataType": "NUMERIC",
+      "example": 97,
+      "nullable": false
+    },
+    {
+      "name": "dummy_22",
+      "description": "Dummy feature 22",
+      "dataType": "NUMERIC",
+      "example": 5,
+      "nullable": false
+    },
+    {
+      "name": "dummy_23",
+      "description": "Dummy feature 23",
+      "dataType": "NUMERIC",
+      "example": 37,
+      "nullable": false
+    },
+    {
+      "name": "dummy_24",
+      "description": "Dummy feature 24",
+      "dataType": "NUMERIC",
+      "example": 40,
+      "nullable": false
+    },
+    {
+      "name": "dummy_25",
+      "description": "Dummy feature 25",
+      "dataType": "NUMERIC",
+      "example": 74,
+      "nullable": false
+    },
+    {
+      "name": "dummy_26",
+      "description": "Dummy feature 26",
+      "dataType": "NUMERIC",
+      "example": 2,
+      "nullable": false
+    },
+    {
+      "name": "dummy_27",
+      "description": "Dummy feature 27",
+      "dataType": "NUMERIC",
+      "example": 2,
+      "nullable": false
+    },
+    {
+      "name": "dummy_28",
+      "description": "Dummy feature 28",
+      "dataType": "NUMERIC",
+      "example": 41,
+      "nullable": false
+    },
+    {
+      "name": "dummy_29",
+      "description": "Dummy feature 29",
+      "dataType": "NUMERIC",
+      "example": 72,
+      "nullable": false
+    },
+    {
+      "name": "dummy_30",
+      "description": "Dummy feature 30",
+      "dataType": "NUMERIC",
+      "example": 99,
+      "nullable": false
+    },
+    {
+      "name": "dummy_31",
+      "description": "Dummy feature 31",
+      "dataType": "NUMERIC",
+      "example": 48,
+      "nullable": false
+    },
+    {
+      "name": "dummy_32",
+      "description": "Dummy feature 32",
+      "dataType": "NUMERIC",
+      "example": 59,
+      "nullable": false
+    },
+    {
+      "name": "dummy_33",
+      "description": "Dummy feature 33",
+      "dataType": "NUMERIC",
+      "example": 69,
+      "nullable": false
+    },
+    {
+      "name": "dummy_34",
+      "description": "Dummy feature 34",
+      "dataType": "NUMERIC",
+      "example": 58,
+      "nullable": false
+    },
+    {
+      "name": "dummy_35",
+      "description": "Dummy feature 35",
+      "dataType": "NUMERIC",
+      "example": 54,
+      "nullable": false
+    },
+    {
+      "name": "dummy_36",
+      "description": "Dummy feature 36",
+      "dataType": "NUMERIC",
+      "example": 78,
+      "nullable": false
+    },
+    {
+      "name": "dummy_37",
+      "description": "Dummy feature 37",
+      "dataType": "NUMERIC",
+      "example": 11,
+      "nullable": false
+    },
+    {
+      "name": "dummy_38",
+      "description": "Dummy feature 38",
+      "dataType": "NUMERIC",
+      "example": 41,
+      "nullable": false
+    },
+    {
+      "name": "dummy_39",
+      "description": "Dummy feature 39",
+      "dataType": "NUMERIC",
+      "example": 78,
+      "nullable": false
+    },
+    {
+      "name": "dummy_40",
+      "description": "Dummy feature 40",
+      "dataType": "NUMERIC",
+      "example": 39,
+      "nullable": false
+    },
+    {
+      "name": "dummy_41",
+      "description": "Dummy feature 41",
+      "dataType": "NUMERIC",
+      "example": 75,
+      "nullable": false
+    },
+    {
+      "name": "dummy_42",
+      "description": "Dummy feature 42",
+      "dataType": "NUMERIC",
+      "example": 81,
+      "nullable": false
+    },
+    {
+      "name": "dummy_43",
+      "description": "Dummy feature 43",
+      "dataType": "NUMERIC",
+      "example": 84,
+      "nullable": false
+    },
+    {
+      "name": "dummy_44",
+      "description": "Dummy feature 44",
+      "dataType": "NUMERIC",
+      "example": 60,
+      "nullable": false
+    },
+    {
+      "name": "dummy_45",
+      "description": "Dummy feature 45",
+      "dataType": "NUMERIC",
+      "example": 13,
+      "nullable": false
+    },
+    {
+      "name": "dummy_46",
+      "description": "Dummy feature 46",
+      "dataType": "NUMERIC",
+      "example": 43,
+      "nullable": false
+    },
+    {
+      "name": "dummy_47",
+      "description": "Dummy feature 47",
+      "dataType": "NUMERIC",
+      "example": 26,
+      "nullable": false
+    },
+    {
+      "name": "dummy_48",
+      "description": "Dummy feature 48",
+      "dataType": "NUMERIC",
+      "example": 32,
+      "nullable": false
+    },
+    {
+      "name": "dummy_49",
+      "description": "Dummy feature 49",
+      "dataType": "NUMERIC",
+      "example": 54,
+      "nullable": false
+    },
+    {
+      "name": "dummy_50",
+      "description": "Dummy feature 50",
+      "dataType": "NUMERIC",
+      "example": 28,
+      "nullable": false
+    }
+  ]
+}
