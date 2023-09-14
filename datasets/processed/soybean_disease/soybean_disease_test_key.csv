@@ -1,138 +1,138 @@
 id,disease
-178, purple-seed-stain
-603, frog-eye-leaf-spot
-341, phytophthora-rot
-599, frog-eye-leaf-spot
-536, phyllosticta-leaf-spot
-615, frog-eye-leaf-spot
-478, brown-spot
-620, frog-eye-leaf-spot
-16, charcoal-rot
-224, alternarialeaf-spot
-556, alternarialeaf-spot
-299, cyst-nematode
-378, phytophthora-rot
-610, frog-eye-leaf-spot
-361, phytophthora-rot
-286, frog-eye-leaf-spot
-335, rhizoctonia-root-rot
-104, downy-mildew
-119, brown-spot
-597, frog-eye-leaf-spot
-522, anthracnose
-97, powdery-mildew
-520, anthracnose
-60, phytophthora-rot
-221, alternarialeaf-spot
-230, alternarialeaf-spot
-128, brown-spot
-563, alternarialeaf-spot
-124, brown-spot
-238, alternarialeaf-spot
-506, purple-seed-stain
-583, alternarialeaf-spot
-256, frog-eye-leaf-spot
-668, 2-4-d-injury
-623, frog-eye-leaf-spot
-526, anthracnose
-475, brown-spot
-345, phytophthora-rot
-93, powdery-mildew
-393, brown-stem-rot
-70, brown-stem-rot
-29, rhizoctonia-root-rot
-404, brown-stem-rot
-116, brown-spot
-420, downy-mildew
-466, brown-spot
-270, frog-eye-leaf-spot
-227, alternarialeaf-spot
-496, bacterial-pustule
-212, alternarialeaf-spot
-105, downy-mildew
-58, phytophthora-rot
-375, phytophthora-rot
-156, bacterial-blight
-387, brown-stem-rot
-432, brown-spot
-71, brown-stem-rot
-152, bacterial-blight
-205, phyllosticta-leaf-spot
-622, frog-eye-leaf-spot
-347, phytophthora-rot
-650, diaporthe-pod-&-stem-blight
-339, phytophthora-rot
-38, phytophthora-rot
-86, brown-stem-rot
-10, charcoal-rot
-0, diaporthe-stem-canker
-559, alternarialeaf-spot
-160, bacterial-pustule
-324, charcoal-rot
-133, brown-spot
-462, brown-spot
-624, frog-eye-leaf-spot
-491, bacterial-pustule
-488, bacterial-blight
-211, alternarialeaf-spot
-241, alternarialeaf-spot
-17, charcoal-rot
-48, phytophthora-rot
-464, brown-spot
-130, brown-spot
-400, brown-stem-rot
-96, powdery-mildew
-56, phytophthora-rot
-533, anthracnose
-180, anthracnose
-443, brown-spot
-682, herbicide-injury
-639, frog-eye-leaf-spot
-649, diaporthe-pod-&-stem-blight
-257, frog-eye-leaf-spot
-141, brown-spot
-512, anthracnose
-225, alternarialeaf-spot
-368, phytophthora-rot
-313, diaporthe-stem-canker
-652, diaporthe-pod-&-stem-blight
-246, alternarialeaf-spot
-463, brown-spot
-670, 2-4-d-injury
-671, 2-4-d-injury
-172, purple-seed-stain
-5, diaporthe-stem-canker
-28, rhizoctonia-root-rot
-297, cyst-nematode
-383, phytophthora-rot
-109, downy-mildew
-380, phytophthora-rot
-287, frog-eye-leaf-spot
-4, diaporthe-stem-canker
-408, brown-stem-rot
-202, phyllosticta-leaf-spot
-259, frog-eye-leaf-spot
-440, brown-spot
-558, alternarialeaf-spot
-189, anthracnose
-165, bacterial-pustule
-397, brown-stem-rot
-372, phytophthora-rot
-142, brown-spot
-200, phyllosticta-leaf-spot
-245, alternarialeaf-spot
-344, phytophthora-rot
-485, bacterial-blight
-572, alternarialeaf-spot
-449, brown-spot
-661, cyst-nematode
-176, purple-seed-stain
-198, anthracnose
-634, frog-eye-leaf-spot
-418, powdery-mildew
-55, phytophthora-rot
-332, rhizoctonia-root-rot
-630, frog-eye-leaf-spot
-217, alternarialeaf-spot
-681, herbicide-injury
-195, anthracnose
+178,purple-seed-stain
+603,frog-eye-leaf-spot
+341,phytophthora-rot
+599,frog-eye-leaf-spot
+536,phyllosticta-leaf-spot
+615,frog-eye-leaf-spot
+478,brown-spot
+620,frog-eye-leaf-spot
+16,charcoal-rot
+224,alternarialeaf-spot
+556,alternarialeaf-spot
+299,cyst-nematode
+378,phytophthora-rot
+610,frog-eye-leaf-spot
+361,phytophthora-rot
+286,frog-eye-leaf-spot
+335,rhizoctonia-root-rot
+104,downy-mildew
+119,brown-spot
+597,frog-eye-leaf-spot
+522,anthracnose
+97,powdery-mildew
+520,anthracnose
+60,phytophthora-rot
+221,alternarialeaf-spot
+230,alternarialeaf-spot
+128,brown-spot
+563,alternarialeaf-spot
+124,brown-spot
+238,alternarialeaf-spot
+506,purple-seed-stain
+583,alternarialeaf-spot
+256,frog-eye-leaf-spot
+668,2-4-d-injury
+623,frog-eye-leaf-spot
+526,anthracnose
+475,brown-spot
+345,phytophthora-rot
+93,powdery-mildew
+393,brown-stem-rot
+70,brown-stem-rot
+29,rhizoctonia-root-rot
+404,brown-stem-rot
+116,brown-spot
+420,downy-mildew
+466,brown-spot
+270,frog-eye-leaf-spot
+227,alternarialeaf-spot
+496,bacterial-pustule
+212,alternarialeaf-spot
+105,downy-mildew
+58,phytophthora-rot
+375,phytophthora-rot
+156,bacterial-blight
+387,brown-stem-rot
+432,brown-spot
+71,brown-stem-rot
+152,bacterial-blight
+205,phyllosticta-leaf-spot
+622,frog-eye-leaf-spot
+347,phytophthora-rot
+650,diaporthe-pod-&-stem-blight
+339,phytophthora-rot
+38,phytophthora-rot
+86,brown-stem-rot
+10,charcoal-rot
+0,diaporthe-stem-canker
+559,alternarialeaf-spot
+160,bacterial-pustule
+324,charcoal-rot
+133,brown-spot
+462,brown-spot
+624,frog-eye-leaf-spot
+491,bacterial-pustule
+488,bacterial-blight
+211,alternarialeaf-spot
+241,alternarialeaf-spot
+17,charcoal-rot
+48,phytophthora-rot
+464,brown-spot
+130,brown-spot
+400,brown-stem-rot
+96,powdery-mildew
+56,phytophthora-rot
+533,anthracnose
+180,anthracnose
+443,brown-spot
+682,herbicide-injury
+639,frog-eye-leaf-spot
+649,diaporthe-pod-&-stem-blight
+257,frog-eye-leaf-spot
+141,brown-spot
+512,anthracnose
+225,alternarialeaf-spot
+368,phytophthora-rot
+313,diaporthe-stem-canker
+652,diaporthe-pod-&-stem-blight
+246,alternarialeaf-spot
+463,brown-spot
+670,2-4-d-injury
+671,2-4-d-injury
+172,purple-seed-stain
+5,diaporthe-stem-canker
+28,rhizoctonia-root-rot
+297,cyst-nematode
+383,phytophthora-rot
+109,downy-mildew
+380,phytophthora-rot
+287,frog-eye-leaf-spot
+4,diaporthe-stem-canker
+408,brown-stem-rot
+202,phyllosticta-leaf-spot
+259,frog-eye-leaf-spot
+440,brown-spot
+558,alternarialeaf-spot
+189,anthracnose
+165,bacterial-pustule
+397,brown-stem-rot
+372,phytophthora-rot
+142,brown-spot
+200,phyllosticta-leaf-spot
+245,alternarialeaf-spot
+344,phytophthora-rot
+485,bacterial-blight
+572,alternarialeaf-spot
+449,brown-spot
+661,cyst-nematode
+176,purple-seed-stain
+198,anthracnose
+634,frog-eye-leaf-spot
+418,powdery-mildew
+55,phytophthora-rot
+332,rhizoctonia-root-rot
+630,frog-eye-leaf-spot
+217,alternarialeaf-spot
+681,herbicide-injury
+195,anthracnose

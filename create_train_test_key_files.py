@@ -41,7 +41,9 @@ def save_train_data(
         processed_datasets_path (str): The path where the processed datasets are stored.
     """
     train_df.to_csv(os.path.join(
-        processed_datasets_path, dataset_name, f"{dataset_name}_train.csv"), index=False)
+        processed_datasets_path, dataset_name, f"{dataset_name}_train.csv"), index=False,
+        encoding='utf-8'
+    )
 
 def save_test_no_target_data(
         test_df: DataFrame,
@@ -59,7 +61,9 @@ def save_test_no_target_data(
     """
     test_no_target_df = test_df.drop(target_name, axis=1)
     test_no_target_df.to_csv(
-        os.path.join(processed_datasets_path, dataset_name, f"{dataset_name}_test.csv"), index=False)
+        os.path.join(processed_datasets_path, dataset_name, f"{dataset_name}_test.csv"),
+        index=False, encoding='utf-8'
+    )
 
 def save_test_key_data(
         test_df: DataFrame,
@@ -79,7 +83,9 @@ def save_test_key_data(
     """
     test_key_df = test_df[[id_name, target_name]]
     test_key_df.to_csv(
-        os.path.join(processed_datasets_path, dataset_name, f"{dataset_name}_test_key.csv"), index=False)
+        os.path.join(processed_datasets_path, dataset_name, f"{dataset_name}_test_key.csv"),
+        index=False, encoding='utf-8'
+    )
 
 
 def create_train_test_testkey_files(dataset_cfg_path:str, processed_datasets_path:str) -> None:

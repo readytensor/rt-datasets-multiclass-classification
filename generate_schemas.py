@@ -32,6 +32,8 @@ def create_feature_section(
     features_df = features_config[(features_config["name"]==dataset_name)
                                   & (features_config["field_type"]=="feature")]
     for _, feature_row in features_df.iterrows():
+        if feature_row["use_feature"] == 0:
+            continue
         feature = {
             "name": feature_row['field_name'],
             "description": feature_row['field_description'],
