@@ -50,13 +50,11 @@ In this repository, you will find the following:
 
 Note again that the main files for all the datasets are in the `./datasets/processed` folder.
 
-The following sections provide more information for each of the datasets.
-
 ---
 
 ## Datasets
 
-The following is the list of datasets along with a brief description for each and its attribution:
+The following sections provide more information for each of the datasets.
 
 ---
 
