@@ -48,7 +48,7 @@ In this repository, you will find the following:
 - `generate_inference_data.py`: contains the code to generate the inference request sample data for each dataset.
 - `run_all.py`: This is used to run the above three scripts in sequence.
 
-Note again that the main files for all the datasets are in the `processed` folder.
+Note again that the main files for all the datasets are in the `./datasets/processed` folder.
 
 The following sections provide more information for each of the datasets.
 
