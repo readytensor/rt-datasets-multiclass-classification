@@ -1,6 +1,29 @@
 # Datasets for Multi-Class Classification category on Ready Tensor
 
-This repository contains benchmark datasets for the Multi-Class Classification category on Ready Tensor. You can find all files related to each dataset in the `datasets/processed/<dataset_name>` folder.
+This repository contains benchmark datasets for the **Multiclass Classification** category on Ready Tensor. There are a total of 15 benchmarking datasets used in this category. Additionally, there is a 16th dataset for smoke testing of models. The following is the list of datasets:
+
+| Dataset                                   | Industry                      | Observations | Features | # of classes | Has Categorical | Missing Values |
+| ----------------------------------------- | ----------------------------- | :----------: | :------: | :----------: | :-------------: | :------------: |
+| Car Evaluation                            | Automotive                    |    1,728     |    6     |      4       |       yes       |       no       |
+| Splice-Junction Gene Sequences            | Molecular Biology             |    3,178     |    60    |      3       |       yes       |       no       |
+| Gesture Phase Segmentation                | Biomechanics / Biosciences    |    9,900     |    32    |      5       |       no        |       no       |
+| IPUMS Census Database - Small             | Demographics / Census         |    7,485     |    61    |      7       |       yes       |      yes       |
+| Iris                                      | Biosciences                   |     150      |    4     |      3       |       no        |       no       |
+| Statlog (Landsat Satellite)               | Space / Geospatial Technology |    6,435     |    36    |      6       |       no        |       no       |
+| Modulus-8                                 | None (synthetic)              |    8,000     |    5     |      8       |       no        |       no       |
+| Nursery                                   | Education                     |    12,960    |    8     |      5       |       yes       |       no       |
+| Optical Recognition of Handwritten Digits | Technology / Computer Vision  |    5,620     |    64    |      10      |       no        |       no       |
+| Six Concentric Spheres                    | None (synthetic)              |    14,265    |    73    |      6       |       no        |      yes       |
+| Smoke Test Dataset - MC                   | None (synthetic)              |     200      |    2     |      3       |       yes       |      yes       |
+| Soybean (Large)                           | Plant Pathology               |     683      |    35    |      19      |       yes       |      yes       |
+| Steel Plates Faults                       | Steel Manufacturing           |    1,941     |    26    |      7       |       yes       |       no       |
+| Student Dropout Prediction                | Education                     |    4,424     |    36    |      3       |       yes       |       no       |
+| Torus Chain                               | None (synthetic)              |    2,500     |    3     |      5       |       no        |      yes       |
+| Vehicle Silhouettes                       | Automotive                    |     846      |    18    |      4       |       no        |       no       |
+
+More information about each dataset is provided in the sections below.
+
+---
 
 ## Project Contents
 
@@ -8,8 +31,8 @@ In this repository, you will find the following:
 
 - `datasets` folder contains the datasets used in benchmarking for the Multi-Class Classification category on Ready Tensor.
 
-  - The `raw` folder contains the original data files from the source (see attributions below). The Jupyter notebook file within each dataset folder is used to convert the raw data file for each dataset in `raw` folder into the processed CSV form in `processed` folder.
   - `processed` folder contains the processed files. These files are used in algorithm evaluations.
+
     - The CSV file with suffix "\_train.csv" is used for training
     - "\_test.csv" is used for testing (without the targets)
     - "\_test_key.csv" contains the ids and targets for the test data. This test key file is used to generate scores by comparing with predictions.
@@ -17,11 +40,17 @@ In this repository, you will find the following:
     - The json file with the suffix "\_inference_request_sample.json" contains a sample JSON object with the data to make an inference request to the /infer endpoint.
     - The CSV file with the dataset name, and no other suffix, is the full data (made of both train and test sets).
 
+  - The `raw` folder contains the original data files from the source (see attributions below). The Jupyter notebook file within each dataset folder is used to convert the raw data file for each dataset in `raw` folder into the processed CSV form in `processed` folder.
+
 - The folder `config` contains two csv files - one called `multiclass_classification_datasets_metadata.csv` which contains the dataset level attribute information. The second csv called `multiclass_classification_datasets_fields.csv` contains information regarding all the fields in each of the datasets. These two files are used by the following scripts to generate the schema, train, test, test_key, and sample inference request data files for each dataset.
 - `generate_schemas.py`: contains the code to generate the schema files for each dataset.
 - `create_train_test_key_files.py`: contains the code to generate the train, test, and test-key files for each dataset.
 - `generate_inference_data.py`: contains the code to generate the inference request sample data for each dataset.
 - `run_all.py`: This is used to run the above three scripts in sequence.
+
+Note again that the main files for all the datasets are in the `processed` folder.
+
+The following sections provide more information for each of the datasets.
 
 ---
 
@@ -81,8 +110,8 @@ The problem posed in this dataset is to recognize, given a sequence of DNA, the 
 
 #### Dataset characteristics
 
-- Number of samples = 3178
-- Number of input features = 62
+- Number of samples = 3,178
+- Number of input features = 60
 - Number of target classes = 3
 - Has categorical features = Yes
 - Has missing values = No
@@ -331,8 +360,8 @@ This dataset can be used for multiclass classification to predict the decision o
 
 #### Dataset characteristics
 
-- Number of samples = 12,970
-- Number of input features = 81
+- Number of samples = 12,960
+- Number of input features = 8
 - Number of target classes = 5
 - Has categorical features = Yes
 - Has missing values = No
@@ -359,7 +388,7 @@ Irvine, CA: University of California, School of Information and Computer Science
 
 #### Alias (in scorecards): optical_digit_recognition
 
-#### Domain / Industry: Cross Industry (Computer Vision)
+#### Domain / Industry: Technology / Computer Vision
 
 #### Description
 
